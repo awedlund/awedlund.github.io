@@ -228,6 +228,106 @@
         {
             "question": "What is the practice where a specialized team attempts to breach system security, using methods that closely mimic real-world attacker tactics, and is only as secure as the scope of the tests performed?",
             "answer": "Penetration Testing. This is a security exercise where a team of skilled testers, often known as ethical hackers, deliberately tries to hack into a system's defenses"
+        },
+        {
+            "question": "What is the term for a network where devices such as computers and printers communicate within a controlled environment?\n",
+            "answer": "Local Area Network (LAN). A LAN is a network that connects devices in a limited area, such as a home, office, or school, allowing for controlled and efficient communication among them"
+        },
+        {
+            "question": "What type of network is characterized by endpoints that are scattered and far from each other, making it more challenging to protect data outside of a local network?",
+            "answer": "Wide Area Network (WAN). A WAN covers a large geographic area, connecting devices that are often distant from each other. Due to its extensive reach beyond local networks, it presents unique challenges in terms of data protection and security management"
+        },
+        {
+            "question": "What are the layers in the ISO/OSI reference model?",
+            "answer": "Application - Presentation - Session - Transport - Network - Data Link - Physical"
+        },
+        {
+            "question": "What are the layers in the Internet reference model?",
+            "answer": "Application (protocols like HTTP, SMTP, SSH - Transport (protocols such as TCP/UDP) - Internet (IP protocols like IPv4/IPv6) - Data Link (technologies like 802.x, PPP, SLIP)"
+        },
+        {
+            "question": "When and where is control information added in the context of network communication?",
+            "answer": "In network communication, control information is added at the bottom layers, particularly in the Data Link and Network layers of the OSI model. This control information is encapsulated in the form of headers and trailers. Headers are added at the beginning of data packets, containing information necessary for routing and delivering the packet. Trailers are added at the end, often containing error-checking data. This process is crucial for the proper management and transmission of data across the network"
+        },
+        {
+            "question": "Is it true or false that physical transmission media are harder to intercept but more expensive to set up than wireless ones?",
+            "answer": "True. Physical transmission media, like wired networks, are generally harder to intercept due to their physical nature, requiring physical access for interception. However, they are typically more expensive and labor-intensive to set up compared to wireless networks, which require less physical infrastructure"
+        },
+        {
+            "question": "Name some types of transmission media",
+            "answer": "Common types of transmission media include Wire (such as twisted pair and coaxial cables), Optical fiber, Microwave, Wireless (including radio and WiFi), and Satellite"
+        },
+        {
+            "question": "What are some vulnerabilities associated with wired networks, particularly related to packet transmission and interception?",
+            "answer": "Wired networks face several vulnerabilities such as packet sniffing and Man-in-the-Middle (MITM) attacks. Packet sniffing involves setting the LAN card into a Monitor (Promiscuous) mode, where the MAC address is ignored and all packets on the network are received. In this mode, an attacker can intercept and analyze packets passing through the network. Additionally, intercepted packets can be resent in a Man-in-the-Middle attack, where the attacker secretly intercepts and possibly alters the communication between two parties who believe they are directly communicating with each other"
+        },
+        {
+            "question": "What is a key vulnerability of wired networks involving electromagnetic radiation, and how can it be exploited by an intruder?",
+            "answer": "A significant vulnerability of wired networks is the emission of weak electromagnetic radiations from the wires. An intruder can exploit this by using a process called inductance to tap into a wire and read the radiated signals without making physical contact with the cable. Essentially, the intruder sets up an antenna close to the cable to pick up the radiations passing through it, enabling them to intercept the data transmitted over the wire"
+        },
+        {
+            "question": "What is a vulnerability in wired networks involving direct interference with the physical cable, and how is it executed?",
+            "answer": "A notable vulnerability in wired networks is cable splicing or cable tapping. This involves directly cutting the cable and splicing in a secondary cable that receives a copy of all signals traveling along the primary cable. Special devices, known as vampire taps, can be used to 'bite' into the cable and intercept communications. This method allows an intruder to access the data flow without disrupting the network's normal operation"
+        },
+        {
+            "question": "What are the vulnerabilities associated with optical fiber networks, and why is physical tapping considered challenging?",
+            "answer": "Optical fiber networks are resistant to many conventional tapping methods due to their reliance on light rather than electricity for signal transmission. Physical tapping of optical fibers is difficult because the entire network requires careful tuning each time a connection is made, making unauthorized tapping noticeable. It requires high skill and expensive equipment. Additionally, since the signal is transmitted through light, there are no electromagnetic radiations, making inductance attacks ineffective"
+        },
+        {
+            "question": "What are some key vulnerabilities associated with microwave transmission in networking?",
+            "answer": "Microwave transmission is particularly vulnerable due to its dependence on line-of-sight locations. Since signals are broadcasted through the air, they are more accessible to hackers. The signal must be repeated approximately every 50 kilometers, making it exposed to interception along its transmission path. Intruders can potentially place their own receivers near the intended destination to intercept or capture the entire communication"
+        },
+        {
+            "question": "Why are wireless (WiFi) networks considered less secure compared to wired networks, and what makes security protocols essential for WiFi?",
+            "answer": "Wireless (WiFi) networks are generally considered less secure than wired ones because WiFi signals propagate radially and can diffuse through obstacles, allowing for easier unauthorized access. For instance, while browsing the internet from one room, an attacker could potentially target your network from another location. Due to this exposure risk, WiFi networks require robust security protocols to protect against unauthorized access and ensure data safety"
+        },
+        {
+            "question": "What are some reasons that make a network vulnerable to interception?",
+            "answer": "Networks become vulnerable to interception due to several factors: Anonymity, which obscures the identity of attackers; numerous potential points of attack; the shared nature of network resources; system complexity, which can create security gaps; an unknown perimeter, making it hard to define and secure all entry points; and an unknown path of data transmission, which can be exploited"
+        },
+        {
+            "question": "What are some common network attacks, and how do they operate?",
+            "answer": "Common network attacks include Port-Scanning, such as using an Nmap scanner, which analyzes running services on a target machine to gather information about service versions. This can reveal potential exploits. Another example is (Distributed) Denial of Services Attacks (DDoS), where the target system is overwhelmed with traffic to disrupt its normal operations, often rendering it inaccessible to legitimate users"
+        },
+        {
+            "question": "What is a Denial of Service (DoS) attack, and what is its primary objective?",
+            "answer": "A Denial of Service (DoS) attack is a cyber-attack where the perpetrator aims to make a machine or network resource unavailable to its intended users. The attack typically floods the target with excessive requests, overwhelming the system and preventing it from servicing legitimate users, thus failing to fulfill its duties"
+        },
+        {
+            "question": "What are the main categories of DoS attacks?",
+            "answer": "DoS attacks can take various forms, including Flooding (like Ping of Death, Smurf – though these are rather outdated) where the attacker sends a massive number of packets, overwhelming the victim’s bandwidth capacity, and Resource Exhausting attacks that aim to deplete the victim's resources like CPU or RAM, often exploiting software bugs or design deficiencies"
+        },
+        {
+            "question": "What are other categories of DoS attacks?",
+            "answer": "Other categories include Vulnerabilities Exploit, where attacks cause system crashes, and Physical Disconnection, involving cutting or detaching cables to interrupt a connection. Additionally, Frequencies Jamming attacks disrupt communication by transmitting high-range signals, especially in wireless mediums"
+        },
+        {
+            "question": "How does a Distributed Denial of Service (DDoS) attack differ from a standard DoS attack?",
+            "answer": "DDoS attacks are an evolution of DoS attacks with similar principles of overloading the victim. The main difference is the use of a large number of machines, often coordinated, to execute the attack, making it more complex and challenging to counteract"
+        },
+        {
+            "question": "What is a DDoS Botnet, and how does it function?",
+            "answer": "A DDoS Botnet is a network of compromised machines, or 'bots', controlled by a coordinator known as the botmaster. These bots, often infected with malicious code like trojan horses, work in parallel against a victim. The botmaster can send different commands to each bot, allowing a diverse range of attacks and making defense more difficult due to the sheer number of attack sources and their varied nature"
+        },
+        {
+            "question": "How are botnets created through bot recruitment, and what are the two main methods to infect user computers?",
+            "answer": "Botnets are formed through bot recruitment by infecting user computers. The two main methods are Drive-by downloads, which involve attackers finding a popular website with an exploitable vulnerability, and Emails, where attackers send large batches of spam emails containing malicious code in documents or PDFs"
+        },
+        {
+            "question": "What are the initial steps in counteracting a DDoS attack?",
+            "answer": "The first step in DDoS countermeasures is to identify the nature of the attack. If the attack exploits specific vulnerabilities, identifying and fixing them is crucial. Understanding the attack type helps in devising effective countermeasures"
+        },
+        {
+            "question": "What strategies can be employed to mitigate targeted DDoS attacks?",
+            "answer": "For targeted DDoS attacks, strategies include increasing the number of servers, temporarily shutting down targeted services, and, in the case of flooding attacks, identifying and blacklisting specific IP address ranges. Increasing bandwidth and resources is also advisable to cope with the excess traffic"
+        },
+        {
+            "question": "How can DDoS Protection vendors be useful in countering DDoS attacks?",
+            "answer": "DDoS Protection vendors act as a middleware between users and the company, providing specialized defense against DDoS attacks. Outsourcing to these vendors is often more cost-effective than in-house solutions, as hiring security experts can be expensive. They offer expertise and resources specifically tailored to mitigate DDoS risks"
+        },
+        {
+            "question": "What is one of the most significant DDoS attacks in history?",
+            "answer": "One of the most known DDoS attacks in history targeted GitHub on Feb. 28, 2018. The attack generated 1.35 terabits per second of traffic, making it one of the largest of its kind. GitHub traced the traffic back to over a thousand different autonomous systems across tens of thousands of unique endpoints"
         }
     ]
 }
