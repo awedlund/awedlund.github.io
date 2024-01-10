@@ -1,0 +1,233 @@
+{
+    "deck_name": "IK434A",
+    "cards": [
+        {
+            "question": "\"Protection against unauthorized access”/ ”Skydd mot obehörig insyn” [SIS TR50: 2015]",
+            "answer": "Confidentiality"
+        },
+        {
+            "question": "\"Protection against unwanted change”/ ”Skydd mot oönskad förändring” [SIS TR50: 2015]",
+            "answer": "Integrity"
+        },
+        {
+            "question": "\"Access for a competent person at the right time”/ ”Åtkomst för behörig person vid rätttillfälle” [SIS TR50: 2015]",
+            "answer": "Availability"
+        },
+        {
+            "question": "\"Determination of access rights for a user”/ ”Fastställande av åtkomsträttigheter fören användare” [SIS TR50: 2015]",
+            "answer": "Authorization (authenticity)"
+        },
+        {
+            "question": "“Provision of technical evidence for the existence of an alleged event or act and itsorigin”/ “Tillhandahållande av teknisk bevisning för förekomsten av en påståddhändelse eller handling och dess ursprung” [SIS TR50: 2015]",
+            "answer": "Non-repudiation"
+        },
+        {
+            "question": "The same key is used for both data encryption and data decryption",
+            "answer": "Symmetric encryption or \"shared-key encryption\""
+        },
+        {
+            "question": "What is one of the biggest challenges in cryptographic systems?",
+            "answer": "Distribution of keys"
+        },
+        {
+            "question": "Here you use two different keys: an open (public) key to encrypt with and your own private key to decrypt",
+            "answer": "Asymmetric Encryption (Public-Key Encryption)"
+        },
+        {
+            "question": "Alice sends encrypted content along with an encrypted one-time key (session key) to Bob. Bob decrypts the one-time key using his private key and then decrypts the content with this one-time key",
+            "answer": "Hybrid Encryption (Digital Envelope)"
+        },
+        {
+            "question": "A data block that is usually attached to the delivered message",
+            "answer": "Digital Signature"
+        },
+        {
+            "question": "How do digital signatures achieve transmitter authentication, message integrity, and non-repudiation?",
+            "answer": "Digital signatures ensure transmitter authentication by linking the message uniquely to the owner's private key, maintain message integrity by detecting any alterations through hash verification, and provide non-repudiation by irrefutably proving the sender's acknowledgment and consent."
+        },
+        {
+            "question": "Facilitates secure data sharing over networks like the Internet using asymmetric encryption. Each user's public key is associated with their credentials via a digital certificate",
+            "answer": "Public Key Infrastructure (PKI)"
+        },
+        {
+            "question": "The _ is an electronic document used to prove that the user owns a public key used in cryptography and to prove the identity",
+            "answer": "(Digital) Certificate"
+        },
+        {
+            "question": "A Digital Certificate is issued by an official and third-party trusted _",
+            "answer": "Certificate Authority (CA)"
+        },
+        {
+            "question": "Symantec, RapidSSL, Comodo, and GeoTrust are examples of _",
+            "answer": "Certificate Authorities (CAs)"
+        },
+        {
+            "question": "To prevent this type of attack, the company must timestamp or number the messages",
+            "answer": "Replay Attack"
+        },
+        {
+            "question": "There are different types of _. One of them is by using KeyLoggers",
+            "answer": "Man-In-The-Middle Attack (MITM Attack)"
+        },
+        {
+            "question": "A condition at an interface under which more input can be placed into a buffer or data holding area than capacity allocated, overwriting other information. Attackers exploit such a condition to crash a system or to insert specially crafted code that allows them to gain control of the system",
+            "answer": "Buffer Overflow\n"
+        },
+        {
+            "question": "A method of overloading a predefined amount of space in a buffer, which can potentially overwrite and corrupt data in memory",
+            "answer": "Buffer Overflow Attacks"
+        },
+        {
+            "question": "Is it true that higher-level programming languages are immune to buffer overflow attacks?",
+            "answer": "Higher-level programming languages are generally safe from buffer overflow attacks because they do not allow more data to be stored in the buffer than its designated size. These languages prioritize solving the given problem with less emphasis on managing the intricate details of variable interactions. However, a drawback of this approach is the loss of direct access to hardware resources, such as when writing code for device drivers. In contrast, the C language provides a balance by offering both low- and high-level controls, allowing for more direct hardware manipulation while also supporting higher-level programming constructs"
+        },
+        {
+            "question": "Checking the input before writing it to the buffer (input validation), employing safe-coding techniques, conducting independent code reviews and testing, choosing a higher-level language or using safe libraries, and implementing stack protection mechanisms that identify changes and abort the program as soon as possible are examples of...",
+            "answer": "...Buffer Overflow Countermeasures"
+        },
+        {
+            "question": "What is the problem with using 'gets(string1);' in a C program?",
+            "answer": "The issue with the 'gets' function in C is that it does not check the amount of data entered by the user. If the user inputs more characters than the buffer size allocated for 'string1', the buffer overflows. This happens because 'gets' does not limit the input to the buffer's capacity in C, causing excess data to spill into adjacent memory. This can lead to serious security vulnerabilities and instability in C programs"
+        },
+        {
+            "question": "Why are higher-level languages such as C#, Java, Python, etc., often referred to as 'managed languages'?",
+            "answer": "These languages are termed 'managed' because they operate within a specific runtime environment that translates an intermediate language (such as CIL for C# and Bytecode for Java) into machine instructions. This runtime environment takes on the responsibility of managing crucial aspects like memory allocation, security, and other system-level features, thus providing an additional layer of abstraction and control compared to lower-level languages"
+        },
+        {
+            "question": "A program that is inserted into a system, usually covertly, with the intent of compromising the confidentiality, integrity, or availability of the victim’s data applications, or operating system orof otherwise annoying or disrupting the victim",
+            "answer": "Malicious Software (Malware)"
+        },
+        {
+            "question": "A computer program that can copy itself and infect a computer without permission or knowledge of the user. A _ might corrupt or delete data on a computer, use email programs to spread itself to other computers, or even erase everything on a hard disk",
+            "answer": "Virus\n"
+        },
+        {
+            "question": "Describes the various ways malware spreads to infect other systems. Examples include email attachments, malicious websites, and network vulnerabilities",
+            "answer": "Propagation Methods (Propagation)"
+        },
+        {
+            "question": "Details the types of harm caused by malware, such as data corruption, information theft, system performance degradation, and unauthorized system access",
+            "answer": "Impact and Payload (Harm/payload)"
+        },
+        {
+            "question": "Explains how malware activates itself within a system, which can include exploiting software vulnerabilities, deceiving users into installing it, or being triggered by specific conditions",
+            "answer": "Activation Mechanisms (Activation)"
+        },
+        {
+            "question": "Outlines how malware avoids detection and removal by security software. This includes techniques like rootkits, polymorphism, and obfuscation",
+            "answer": "Evasion Techniques (Stealth)"
+        },
+        {
+            "question": "_ are sophisticated cyber threats that utilize a combination of malware types and attack vectors. They are designed to exploit multiple vulnerabilities and often combine the characteristics of viruses, worms, and Trojans to maximize damage and spread rapidly",
+            "answer": "Blended Attacks"
+        },
+        {
+            "question": "Name four activation mechanisms for malware",
+            "answer": "Setup and installer programs, attached files, macros, and autorun features"
+        },
+        {
+            "question": "What is the type of virus that utilizes the scripting function inside a document, like Microsoft Word, to perform malicious activities? Microsoft has developed a _ Virus Protection to detect suspected documents",
+            "answer": "Macro Virus (Macros)"
+        },
+        {
+            "question": "What is the feature of an operating system that allows for automatic execution of programs, which a threat actor might target to execute a virus?",
+            "answer": "Autorun. Examples include autoexec.bat in DOS/command prompt environments or the Task Scheduler in Windows"
+        },
+        {
+            "question": "What does it mean when a virus is appended to a program?",
+            "answer": "When a virus is appended to a program, it means that the virus code is attached to the end of the program file. Each time the program is executed, the virus code runs first, completes its task, and then control is transferred back to the original program"
+        },
+        {
+            "question": "What does it mean when a virus is surrounding a program?",
+            "answer": "A virus that surrounds a program takes control both before and after the program's execution. This means the virus can perform its actions before the program starts and after it finishes, effectively encasing the program's execution within its control"
+        },
+        {
+            "question": "What does it mean when a virus is integrated into a program?",
+            "answer": "Integration of a virus into a program involves inserting the virus code into the program's code. This requires the virus developer to understand the program's structure to strategically place the virus code. The virus and program code become intermingled, making it harder to separate the virus from the program without damaging the latter"
+        },
+        {
+            "question": "A self-replicating, self-propagating, self-contained program that uses networking mechanisms to spread itself",
+            "answer": "Worm"
+        },
+        {
+            "question": "What is the main difference between a worm and a virus?",
+            "answer": "The main difference lies in their method of propagation. A worm is a standalone malware that replicates itself and spreads independently across networks without requiring any host program. On the other hand, a virus depends on attaching itself to a host program or file and spreads by modifying other programs with its own code. While both can cause similar types of damage, their modes of transmission and propagation are distinct"
+        },
+        {
+            "question": "A recognizable, distinguishing pattern associated with an attack, such as a binary string in a virus or a particular set of keystrokes used to gain an unauthorized access to a system",
+            "answer": "Virus Signature"
+        },
+        {
+            "question": "What is typically used to uniquely identify a virus, which can be, for example, a hash calculated on a part of the virus code that is unique to the virus, or a hash based on the behavior of the virus (such as when a program performs specific actions X, Y, and Z)?",
+            "answer": "Virus Signature. A virus signature is a unique string of bytes or a pattern that antivirus software uses to identify and detect specific viruses. It can be derived from a unique part of the virus code or from the characteristic behaviors exhibited by the virus, such as performing specific actions or sequences of actions within a system"
+        },
+        {
+            "question": "Describe a Polymorphic Virus",
+            "answer": "A polymorphic virus is a type of malware that can change its observable characteristics, such as its code, signature, or encryption, each time it infects a new system. This is achieved by randomly repositioning, encrypting, or otherwise altering its code without changing the fundamental functionality of the virus. Despite the varying appearance, the underlying attack code remains the same. This ability to morph makes it challenging for antivirus programs to detect and match the virus to signatures saved in their database, as the virus presents differently in each iteration"
+        },
+        {
+            "question": "What kind of virus encrypts its body with a variable key every time it replicates, uses a decryptor to execute the encrypted virus body in the targeted program, and can be identified through its consistent decryptor (Virus Signature)?",
+            "answer": "Encrypted Virus. This type of virus encrypts its main body or payload with a different key upon each infection, making its appearance variable and harder to detect by antivirus programs. To execute, it uses a small static decryptor component, which remains the same across infections. This decryptor decrypts the virus body so it can execute within the target program. It is this consistent decryptor part that can be used as a virus signature for antivirus software to detect and identify the encrypted virus"
+        },
+        {
+            "question": "What are some key security requirements for relational databases?",
+            "answer": "Database Integrity, Element Integrity, Auditability, Access Control, User Authentication, and Availability"
+        },
+        {
+            "question": "In relational databases, data should be safeguarded against physical problems (e.g., power failures), necessitating regular backups. Additionally, ensuring that modifications to the value of one field do not affect other fields are examples of...",
+            "answer": "...Data Integrity"
+        },
+        {
+            "question": "In relational databases, the data should be correct and the DBMS performs the following actions to ensure _: Field checks, access control, and change logs",
+            "answer": "Element Integrity\n"
+        },
+        {
+            "question": "What does 'Auditability' mean in the context of relational databases?",
+            "answer": "Auditability in relational databases refers to the capability to track, record, and examine all database activities, especially those related to data access and modification. This includes maintaining detailed logs that capture which user performed what action and at what time. It also involves monitoring and recording incremental access to sensitive data. Auditability is crucial for ensuring security, compliance with regulations, and for forensic analysis in case of security breaches or unauthorized activities. It helps in establishing accountability and in maintaining the integrity of the database by providing a transparent and traceable history of all transactions"
+        },
+        {
+            "question": "Describe 'Access Control' in the context of relational databases",
+            "answer": "Access Control in relational databases refers to the process of specifying who is allowed to access specific data, and at what level"
+        },
+        {
+            "question": "In the context of relational databases, what security requirement is being referred to when a DBMS authenticates the user before allowing access to the data, and in some cases, performs independent authentication separate from the operating system?",
+            "answer": "User Authentication. This security requirement involves verifying the identity of users before granting them access to the database. User Authentication ensures that only authorized individuals can access the database, thereby protecting sensitive data from unauthorized access"
+        },
+        {
+            "question": "In the context of relational databases, what security requirement is being referred to when it's stated that the DBMS should be consistently available to users and allow them access to the data for which they are authorized?",
+            "answer": "Availability. This security requirement emphasizes the importance of the database being accessible and operational when needed by authorized users"
+        },
+        {
+            "question": "Describe 'Integrity' in the context of CIA and DBMS",
+            "answer": "Integrity ensures the accuracy and consistency of data both at the individual element level and across the entire database. It involves mechanisms to prevent unauthorized data modification"
+        },
+        {
+            "question": "Describe 'Confidentiality' in the context of CIA and DBMS",
+            "answer": "Confidentiality pertains to controlling access to sensitive data within the database. The key challenge is in preventing indirect access or inference, where unauthorized users might glean sensitive information without direct access to the database"
+        },
+        {
+            "question": "Describe 'Availability' in the context of CIA and DBMS",
+            "answer": "Availability focuses on ensuring that authorized users have reliable access to the database, important due to the shared nature of database access. It addresses challenges like concurrent user access, which could impact database performance and availability"
+        },
+        {
+            "question": "You notice the string ' OR 1=1;-- in your database login logs. What is this, and what does it imply?",
+            "answer": "This string is indicative of a SQL Injection (SQLi) attempt, where a threat actor is trying to manipulate the SQL query. In this context, the ' OR 1=1;-- is an injection technique used to alter the query logic. It effectively changes the query to return true for all records (since 1=1 is always true), bypassing standard authentication checks. The -- at the end is a comment symbol in SQL, which makes the database ignore the rest of the query, further aiding in the exploitation. This type of attack is a serious security concern and suggests vulnerabilities in the input validation of the database system"
+        },
+        {
+            "question": "What are some countermeasures against SQL Injection (SQLi)?",
+            "answer": "Input Type Checking, Parametrized Queries, and Testing for SQLi"
+        },
+        {
+            "question": "What is the difference between Black-box testing and White-box testing?",
+            "answer": "Black-box testing focuses on examining the functionality of the software without any knowledge of its internal code structure. It's like testing a machine only by its inputs and outputs. In contrast, White-box testing involves a thorough understanding and examination of the software's internal logic and code structure. This approach is akin to testing a machine by understanding and inspecting its internal workings. While Black-box testing evaluates the software from the user's perspective, White-box testing delves deeper into the code for a more technical analysis"
+        },
+        {
+            "question": "Prevent (malicious) developers from attempting to hide something in a module of the system (e.g. backdoor)",
+            "answer": "Independent Testing"
+        },
+        {
+            "question": "What is the practice where a specialized team attempts to breach system security, using methods that closely mimic real-world attacker tactics, and is only as secure as the scope of the tests performed?",
+            "answer": "Penetration Testing. This is a security exercise where a team of skilled testers, often known as ethical hackers, deliberately tries to hack into a system's defenses"
+        }
+    ]
+}
