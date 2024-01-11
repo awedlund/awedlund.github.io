@@ -19,7 +19,8 @@ function loadCards() {
             shuffleCards(cards);
             displayCard();
             updateStatus();
-        });
+        })
+        .catch(error => console.error('Error loading cards:', error));
 }
 
 // Display the current card
@@ -29,7 +30,7 @@ function displayCard() {
         document.getElementById('answer').innerText = cards[currentCardIndex].answer;
         document.getElementById('answer').style.display = 'none';
     } else {
-        document.getElementById('card').innerText = "No more cards!";
+        document.getElementById('card').innerHTML = "<p>No more cards!</p>";
     }
     updateStatus();
 }
@@ -42,8 +43,10 @@ function updateStatus() {
 
 // Event listeners for buttons
 document.getElementById('next').addEventListener('click', () => {
-    currentCardIndex++;
-    displayCard();
+    if (currentCardIndex < cards.length) {
+        currentCardIndex++;
+        displayCard();
+    }
 });
 
 document.getElementById('toggle').addEventListener('click', () => {
