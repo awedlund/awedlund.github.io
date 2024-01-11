@@ -1,5 +1,6 @@
 let currentCardIndex = 0;
 let cards = [];
+let greetCount = 0;
 
 // Shuffle cards function
 function shuffleCards(array) {
@@ -17,6 +18,7 @@ function loadCards() {
             cards = data.cards;
             shuffleCards(cards);
             displayCard();
+            updateStatus();
         });
 }
 
@@ -29,6 +31,13 @@ function displayCard() {
     } else {
         document.getElementById('card').innerText = "No more cards!";
     }
+    updateStatus();
+}
+
+// Update the status of remaining questions
+function updateStatus() {
+    let remaining = cards.length - currentCardIndex;
+    document.getElementById('status').innerText = `Remaining questions: ${remaining}`;
 }
 
 // Event listeners for buttons
@@ -40,6 +49,11 @@ document.getElementById('next').addEventListener('click', () => {
 document.getElementById('toggle').addEventListener('click', () => {
     let answerDiv = document.getElementById('answer');
     answerDiv.style.display = answerDiv.style.display === 'none' ? 'block' : 'none';
+});
+
+document.getElementById('greet').addEventListener('click', () => {
+    greetCount++;
+    document.getElementById('greetCount').innerText = `Greet count: ${greetCount}`;
 });
 
 // Load cards when the window is loaded
