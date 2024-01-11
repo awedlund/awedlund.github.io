@@ -56,7 +56,7 @@ document.getElementById('toggle').addEventListener('click', () => {
 
 document.getElementById('greet').addEventListener('click', () => {
     greetCount++;
-    document.getElementById('greetCount').innerText = `Greet count: ${greetCount}`;
+    document.getElementById('greetCount').innerText = `Screwed count: ${greetCount}`;
 });
 
 // Load cards when the window is loaded
