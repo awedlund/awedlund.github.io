@@ -1,0 +1,1129 @@
+{
+    "deck_name": "TryHackMe",
+    "cards": [
+        {
+            "question": "IAAA Model",
+            "answer": "Identification, Authentication, Authorization, Accountability"
+        },
+        {
+            "question": "IAAA: _ is how a user (or process or system) claims a specific identity",
+            "answer": "Identification"
+        },
+        {
+            "question": "IAAA: _ is the process of verifying the identity of a user or system",
+            "answer": "Authentication"
+        },
+        {
+            "question": "Five different authentication mechanism",
+            "answer": "Something you know, you have, or you are. Somewhere you are (logical/physical location). Something you do (behaviour)."
+        },
+        {
+            "question": "Using two or more authentication mechanisms is called...",
+            "answer": "...Multi-Factor Authentication (MFA). The purpose is to have additional security in case one authentication mechanism gets compromised"
+        },
+        {
+            "question": "Home safes that necessitate the owner to insert a key and enter the correct PIN code in order to unlock are an example of...",
+            "answer": "...two-factor authentication (2FA)"
+        },
+        {
+            "question": "IAAA: Once authenticated, a user should be granted the proper level of access. _ specifies what the authenticated user should be allowed to access and do.",
+            "answer": "Authorisation"
+        },
+        {
+            "question": "Linda is given a key that grants her access to her assigned hotel room. Consequently, _ is enforced via locks and keys",
+            "answer": "Access Control\n"
+        },
+        {
+            "question": "IAAA: _ ensures that users are accountable for the actions they perform on a system",
+            "answer": "Accountability"
+        },
+        {
+            "question": "Accountability is possible if we have auditing capabilities, which usually require proper _ functionality",
+            "answer": "Logging"
+        },
+        {
+            "question": "The process of recording events that occur within a system. This record is vital for regulatory compliance, incident response, and forensic investigations",
+            "answer": "Logging\n"
+        },
+        {
+            "question": "_ should be tamper-proof. The reason is that you don’t want the attacker to delete or alter the _ and hide their actions on the network",
+            "answer": "Logs"
+        },
+        {
+            "question": "_ is the process of sending log data from one system to another",
+            "answer": "Log forwarding\n"
+        },
+        {
+            "question": "A technology that aggregates log data from multiple sources and analyses it for signs of security threats",
+            "answer": "Security Information and Event Management (SIEM)"
+        },
+        {
+            "question": "_ and _ enable organisations to conduct forensic investigations by providing a detailed system and network activity history",
+            "answer": "Logging (and) SIEM solutions"
+        },
+        {
+            "question": "Includes all the necessary policies and technologies for identification, authentication, and authorisation. Aims to ensure that authorised people have access to the assets and resources needed for their work while unauthorised people are denied access. Requires that each user or device is assigned a digital identity",
+            "answer": "Identity Management (IdM)"
+        },
+        {
+            "question": "A more comprehensive concept than IdM. IdM systems manage user identities, while _ systems encompass broader functions to manage and secure digital identities and access rights.",
+            "answer": "Identity and Access Management (IAM)"
+        },
+        {
+            "question": "Although the attacker does not know the password, they can still authenticate by replaying the same response. This attack is considered a _",
+            "answer": "Replay Attack\n"
+        },
+        {
+            "question": "Three common access control models are...",
+            "answer": "...Discretionary Access Control (DAC), Role-Based Access Control (RBAC), and Mandatory Access Control (MAC)"
+        },
+        {
+            "question": "Many have already used _ when sharing files or folders with friends and colleagues. When using _, the resource owner will explicitly add users with the proper permissions",
+            "answer": "Discretionary Access Control (DAC)"
+        },
+        {
+            "question": "_ uses a very intuitive approach. Each user has one or more roles or functional positions; furthermore, they are authorised to access different resources based on their roles",
+            "answer": "Role-Based Access Control (RBAC)"
+        },
+        {
+            "question": "An operating system using _ would prioritise security and significantly limit users’ abilities. Such systems are used for specific purposes or to handle highly classified data",
+            "answer": "Mandatory Access Control (MAC)"
+        },
+        {
+            "question": "AppArmor and The SELinux project are examples of software providing a...",
+            "answer": "...Mandatory Access Control (MAC) for Linux systems"
+        },
+        {
+            "question": "Allows organisations to authenticate users once before granting them access to the resources required for their work.  Instead of a user having to remember multiple usernames and passwords, they only need to remember a single set of login credentials ",
+            "answer": "Single Sign-On (SSO)"
+        },
+        {
+            "question": "Caesar cipher is considered a _ because each letter in the alphabet is substituted with another",
+            "answer": "Substitution Cipher"
+        },
+        {
+            "question": "Encrypts the message by changing (rearranging) the order of the letters",
+            "answer": "Transposition Cipher"
+        },
+        {
+            "question": "quipquip",
+            "answer": "Cryptogram Solver"
+        },
+        {
+            "question": "A comprehensive approach to information security governance & regulation requires...",
+            "answer": "...establishing robust policies and guidelines and implementing rigorous monitoring and enforcement mechanisms to ensure compliance"
+        },
+        {
+            "question": "Managing and directing an organisation or system to achieve its objectives and ensure compliance with laws, regulations, and standards",
+            "answer": "Governance"
+        },
+        {
+            "question": "A rule or law enforced by a governing body to ensure compliance and protect against harm",
+            "answer": "Regulation"
+        },
+        {
+            "question": "The state of adhering to laws, regulations, and standards that apply to an organisation or system",
+            "answer": "Compliance"
+        },
+        {
+            "question": "Information Security Governance: Developing and implementing a comprehensive information security _ that aligns with the organisation's overall business objectives",
+            "answer": "Strategy"
+        },
+        {
+            "question": "Information Security Governance: Preparing _ that govern the use and protection of information assets",
+            "answer": "Policies and procedures"
+        },
+        {
+            "question": "_ are often conducted to gauge the operational readiness of an organization from a security point of view. Certain scenarios are identified to be exercised, and security team members must explain their respective roles in the scenarios under discussion. For example, a scenario might include the compromise of an endpoint device through a phishing email. All the team members will then explain their respective steps per the organization's playbooks. The security engineer is sometimes required to conduct these exercises",
+            "answer": "Tabletop Exercises"
+        },
+        {
+            "question": "Information Security Governance: Conduct risk assessments to identify potential threats to the organisation's information assets and implement risk mitigation measures",
+            "answer": "Risk management"
+        },
+        {
+            "question": "Information Security Governance: Establishing metrics and key performance indicators (KPIs) to measure the effectiveness of the information security governance program",
+            "answer": "Performance measurement"
+        },
+        {
+            "question": "Information Security Governance: Ensuring _ with relevant regulations and industry best practices",
+            "answer": "Compliance"
+        },
+        {
+            "question": "Information security governance falls under the purview of top-tier management and includes the following processes...",
+            "answer": "...Strategy, Policies and procedures, Risk Management, Performance measure and monitor, and Compliance"
+        },
+        {
+            "question": "Legal and regulatory frameworks that govern the use and protection of information assets. Is typically mandatory and enforced by government agencies or other regulatory bodies",
+            "answer": "Information Security Regulation"
+        },
+        {
+            "question": "What do the General Data Protection Regulation (GDPR), Payment Card Industry Data Security Standard (PCI DSS), and Personal Information Protection and Electronic Documents Act (PIPEDA) exemplify?",
+            "answer": "Information Security Regulations/Standards"
+        },
+        {
+            "question": "Benefits of implementing governance and regulation",
+            "answer": "Better security posture, Stakeholder confidence, Regulatory compliance, Buiness objectives aligned, Informed decision-making, and Competitive advantage"
+        },
+        {
+            "question": "The primary law in the United States that governs the privacy of healthcare information",
+            "answer": "Health Information Portability and Accountability Act (HIPAA)"
+        },
+        {
+            "question": "_ is a regulation propagated by the European Union that sets strict requirements for how organisations handle and protect and  secure the personal data of EU citizens and residents",
+            "answer": "General Data Protection Regulation (GDPR)"
+        },
+        {
+            "question": "A US-based official law to maintain the sensitivity of health-related information of citizens",
+            "answer": "Health Insurance Portability and Accountability Act (HIPAA)"
+        },
+        {
+            "question": "Set technical and operational requirements to ensure the secure handling, storage, processing, and transmission of cardholder data by merchants, service providers, and other entities that handle payment cards",
+            "answer": "Payment Card Industry Data Security Standard (PCI-DSS)"
+        },
+        {
+            "question": "Financial companies must be sensitive to their customers' nonpublic personal information (NPI), including implementing information security programs, providing privacy notices, and disclosing information-sharing practices",
+            "answer": "Gramm-Leach-Bliley Act (GLBA)"
+        },
+        {
+            "question": "_ provides a comprehensive set of documents that outline the organisation's approach to information security and governs how security is implemented, managed, and enforced within the organisation",
+            "answer": "Information Security Frameworks"
+        },
+        {
+            "question": "A formal statement that outlines an organisation's goals, principles, and guidelines for achieving specific objectives",
+            "answer": "Policies"
+        },
+        {
+            "question": "A document establishing specific requirements or specifications for a particular process, product, or service",
+            "answer": "Standards"
+        },
+        {
+            "question": "A document that provides recommendations and best practices (non-mandatory) for achieving specific goals or objectives",
+            "answer": "Guidelines"
+        },
+        {
+            "question": "Set of specific steps for undertaking a particular task or process",
+            "answer": "Procedures"
+        },
+        {
+            "question": "A set of minimum security standards or requirements that an organisation or system must meet",
+            "answer": "Baselines"
+        },
+        {
+            "question": "Some generalised steps used to develop policies, standards, guidelines, etc.",
+            "answer": "Identify the scope and purpose, research and review, draft the document, review and approval, implementation and communication, review and update"
+        },
+        {
+            "question": "Involves guiding an organisation by setting its direction through information security strategy,  which includes policies, standards, baselines, frameworks, etc., along with establishing appropriate monitoring methods to measure its performance and assess the outcomes",
+            "answer": "Governance"
+        },
+        {
+            "question": "Involves identifying, assessing, and prioritising risks to the organisation and implementing controls and mitigation strategies to manage those risks effectively. This includes monitoring and reporting on risks and continuously evaluating and refining the _ program to ensure its ongoing effectiveness",
+            "answer": "Risk Management"
+        },
+        {
+            "question": "Ensuring that the organisation meets its legal, regulatory, and industry obligations and that its activities align with its policies and procedures. This includes developing and implementing compliance programs, conducting regular audits and assessments, and reporting on compliance issues to stakeholders",
+            "answer": "Compliance Component"
+        },
+        {
+            "question": "A well-developed and implemented _ program for cyber security provides an integrated framework for managing risks, complying with regulations and standards, and improving the overall security perspective of an organisation",
+            "answer": "GRC (Governance Risk and Compliance)"
+        },
+        {
+            "question": "_ is a data protection law implemented by the EU in May 2018 to protect personal data. Personal data is \"Any data associated with an individual that can be utilised to identify them either directly or indirectly\"",
+            "answer": "General Data Protection Regulation (GDPR)"
+        },
+        {
+            "question": "_ is focused on maintaining secure card transactions and protecting against data theft and fraud. It is widely used by businesses, primarily online, for card-based transactions. It was established by major credit card brands (Visa, MasterCard & American Express). It requires strict control access to cardholder information and monitoring unauthorised access, using recommended measures such as web application firewalls and encryption",
+            "answer": "Payment Card Industry Data Security Standard (PCI DSS)"
+        },
+        {
+            "question": "Publication that provides a catalogue of security controls to protect the CIA triad of information systems",
+            "answer": "NIST 800-53"
+        },
+        {
+            "question": "NIST 800-53 Compliance Best Practices\n",
+            "answer": "Discover and Classify (Sensitive data), Map (Data and permissions), Manage (Access control), and Monitor (Data, file activity, and user behaviour)"
+        },
+        {
+            "question": "A set of guidelines created by the NIST to help organisations establish effective digital identity practices",
+            "answer": "NIST 800-63B"
+        },
+        {
+            "question": "An internationally recognised standard for requirements to plan, develop, run, and update an organisation's Information Security Management System (ISMS)",
+            "answer": "ISO 27001"
+        },
+        {
+            "question": "ISO 27001 core component: This specifies the ISMS's boundaries, including the covered assets and processes",
+            "answer": "Scope\n"
+        },
+        {
+            "question": "ISO 27001 core component: A high-level document defining an organisation's information security approach",
+            "answer": "Information security policy"
+        },
+        {
+            "question": "ISO 27001 core component: Involves identifying and evaluating the risks to the confidentiality, integrity, and availability of the organisation's information",
+            "answer": "Risk assessment"
+        },
+        {
+            "question": "ISO 27001 core component: Involves selecting and implementing controls to reduce the identified risks to an acceptable level",
+            "answer": "Risk treatment"
+        },
+        {
+            "question": "ISO 27001 core component: This document specifies which controls from the standard are applicable and which are not",
+            "answer": "Statement of Applicability (SoA)"
+        },
+        {
+            "question": "ISO 27001 core component: This involves conducting periodic audits of the ISMS to ensure that it is operating effectively",
+            "answer": "Internal audit"
+        },
+        {
+            "question": "ISO 27001 core component: Review the performance of ISMS at regular intervals",
+            "answer": "Management review"
+        },
+        {
+            "question": "Developed by the American Institute of Certified Public Accountants (AICPA) as a compliance/auditing framework",
+            "answer": "Service Organisation Control 2 (SOC 2)"
+        },
+        {
+            "question": "SOC 2 Audit: This may include specific systems, processes, or locations that are relevant to the security and privacy of customer data",
+            "answer": "Determine the scope"
+        },
+        {
+            "question": "SOC 2 Audit: Select a qualified auditor with experience conducting SOC 2 audits for financial companies. Consider factors such as the auditor's reputation, experience, and availability",
+            "answer": "Choose a suitable auditor"
+        },
+        {
+            "question": "SOC 2 Audit: Work with the auditor to plan the audit, including the audit timeline, the scope of the audit, and the audit criteria",
+            "answer": "Plan the audit"
+        },
+        {
+            "question": "SOC 2 Audit: Prepare for the audit by reviewing your security and privacy controls, policies, and procedures. Identify any gaps or deficiencies and develop a plan to address them",
+            "answer": "Prepare for the audit\n"
+        },
+        {
+            "question": "SOC 2 Audit: The auditor will review your controls and conduct testing to assess their effectiveness. The audit may include interviews with key personnel, documentation reviews, and controls tests",
+            "answer": "Conduct the audit\n"
+        },
+        {
+            "question": "SOC 2 Audit: Once the audit is complete, the auditor will provide a report detailing the audit results. The report may include a description of your controls, any deficiencies or gaps identified, and recommendations for improvement",
+            "answer": "Receive the audit report"
+        },
+        {
+            "question": "_ is a systematic approach to identifying, prioritising, and addressing potential security threats across the organisation. Enables organisations to develop proactive security measures and make informed decisions about resource allocation",
+            "answer": "Threat modelling"
+        },
+        {
+            "question": "Refers to any potential occurrence, event, or actor that may exploit vulnerabilities to compromise information confidentiality, integrity, or availability. It may come in various forms, such as cyber attacks, human error, or natural disasters",
+            "answer": "Threat"
+        },
+        {
+            "question": "A weakness or flaw in a system, application, or process that may be exploited by a threat to cause harm. It may arise from software bugs, misconfiguration, or design flaws",
+            "answer": "Vulnerability"
+        },
+        {
+            "question": "The possibility of being compromised because of a threat taking advantage of a vulnerability. A way to think about how likely an attack might be successful and how much damage it could cause",
+            "answer": "Risk\n"
+        },
+        {
+            "question": "High-Level Process of Threat Modelling",
+            "answer": "Defining the scope, Asset Identification, Identify Threats, Analyse Vulnerabilities and Prioritise Risks, Develop and Implement Countermeasures, Monitor and Evaluate"
+        },
+        {
+            "question": "A graphical representation used in threat modelling to systematically describe and analyse potential threats against a system, application or infrastructure. It provides a structured, hierarchical approach to breaking down attack scenarios into smaller components. Each node in the tree represents a specific event or condition, with the root node representing the attacker's primary goal",
+            "answer": "Attack Tree"
+        },
+        {
+            "question": "In an _ representation, the initial starting node represents the attacker's entry point into the system or network. From there, the various branches or nodes represent the specific vulnerabilities, attack vectors, or steps the threat actor can follow to advance towards their objective",
+            "answer": "Attack path"
+        },
+        {
+            "question": "A comprehensive, globally accessible knowledge base of cyber adversary behaviour and tactics",
+            "answer": "MITRE ATT&CK (Adversarial Tactics, Techniques, and Common Knowledge)"
+        },
+        {
+            "question": "_ can be integrated into our threat modelling process by mapping the identified threats and vulnerabilities to the tactics and techniques described in the _",
+            "answer": "MITRE ATT&CK, ATT&CK Framework"
+        },
+        {
+            "question": "Aside from incorporating MITRE ATT&CK in a threat modelling process, MITRE ATT&CK can be used in various cases depending on your organisation's needs, like...",
+            "answer": "...Identifying potential attack paths based on your infrastructure, Developing threat scenarios, and Prioritising vulnerability remediation"
+        },
+        {
+            "question": "A web-based tool for annotating and exploring ATT&CK matrices. It can be used to visualize defensive coverage, red/blue team planning, the frequency of detected techniques, and more\n ",
+            "answer": "MITRE ATT&CK® Navigator"
+        },
+        {
+            "question": "_ is a risk assessment model developed by Microsoft to evaluate and prioritise security threats and vulnerabilities. It is an acronym that stands for _",
+            "answer": "DREAD: Damage, Reproducibility, Exploitability, Affected Users, Discoverability"
+        },
+        {
+            "question": "DREAD Framework: How bad would an attack be?",
+            "answer": "(D)READ: Damage"
+        },
+        {
+            "question": "DREAD Framework: How easy is it to reproduce the attack?",
+            "answer": "D(R)EAD: Reproducibility"
+        },
+        {
+            "question": "DREAD Framework: How much work is it to launch the attack?",
+            "answer": "DR(E)AD: Exploitability"
+        },
+        {
+            "question": "DREAD Framework: How many people will be impacted?",
+            "answer": "DRE(A)D Framework: Affected Users"
+        },
+        {
+            "question": "DREAD Framework: How easy is it to discover the vulnerability?",
+            "answer": "DREA(D): Discoverability"
+        },
+        {
+            "question": "The _ framework is a threat modelling methodology also developed by Microsoft, which helps identify and categorise potential security threats in software development and system design",
+            "answer": "STRIDE"
+        },
+        {
+            "question": "STRIDE: Unauthorised access or impersonation of a user or system",
+            "answer": "Spoofing (Policy Violated: Authentication)"
+        },
+        {
+            "question": "STRIDE: Unauthorised modification or manipulation of data or code",
+            "answer": "Tampering (Policy Violated: Integrity)"
+        },
+        {
+            "question": "STRIDE: Ability to deny having acted, typically due to insufficient auditing or logging",
+            "answer": "Repudiation (Policy Violated: Non-repudiation)"
+        },
+        {
+            "question": "STRIDE: Unauthorised access to sensitive information, such as personal or financial data",
+            "answer": "Information Disclosure Elevation of Privilege (Policy Violated: Confidentiality)"
+        },
+        {
+            "question": "STRIDE: Disruption of the system's availability, preventing legitimate users from accessing it",
+            "answer": "Denial of Service Elevation of Privilege (Policy Violated: Availability)"
+        },
+        {
+            "question": "STRIDE: Unauthorised elevation of access privileges, allowing threat actors to perform unintended actions",
+            "answer": "Elevation of Privilege (Policy Violated: Authorisation)"
+        },
+        {
+            "question": "A structured, risk-centric threat modelling framework designed to help organisations identify and evaluate security threats and vulnerabilities within their systems, applications, or infrastructure",
+            "answer": "﻿PASTA (Process for Attack Simulation and Threat Analysis)"
+        },
+        {
+            "question": "PASTA: Establish the scope of the threat modelling exercise by identifying the systems, applications, or networks being analysed and the specific security objectives and compliance requirements to be met",
+            "answer": "1. Define the Objectives"
+        },
+        {
+            "question": "PASTA: Create an inventory of assets, such as hardware, software, and data, and develop a clear understanding of the system's architecture, dependencies, and data flows",
+            "answer": "2. Define the Technical Scope"
+        },
+        {
+            "question": "PASTA: Break down the system into its components, identifying entry points, trust boundaries, and potential attack surfaces. This step also includes mapping out data flows and understanding user roles and privileges within the system",
+            "answer": "3. Decompose the Application"
+        },
+        {
+            "question": "PASTA: Identify potential threats to the system by considering various threat sources, such as external attackers, insider threats, and accidental exposures. This step often involves leveraging industry-standard threat classification frameworks or attack libraries",
+            "answer": "4. Analyse the Threats"
+        },
+        {
+            "question": "PASTA: Analyse the system for existing vulnerabilities, such as misconfigurations, software bugs, or unpatched systems, that an attacker could exploit to achieve their objectives. Vulnerability assessment tools and techniques, such as static and dynamic code analysis or penetration testing, can be employed during this step",
+            "answer": "5. Vulnerabilities and Weaknesses Analysis"
+        },
+        {
+            "question": "PASTA: Simulate potential attack scenarios and evaluate the likelihood and impact of each threat. This step helps determine the risk level associated with each identified threat, allowing security teams to prioritise the most significant risks",
+            "answer": "6. Analyse the Attacks"
+        },
+        {
+            "question": "PASTA: Develop and implement appropriate security controls and countermeasures to address the identified risks, such as updating software, applying patches, or implementing access controls. The chosen countermeasures should be aligned with the organisation's risk tolerance and security objectives",
+            "answer": "7. Risk and Impact Analysis"
+        },
+        {
+            "question": "Practical guidelines for PASTA: 1. Define the Objectives",
+            "answer": "Set clear and realistic security objectives for the threat modelling exercise. Identify relevant compliance requirements and industry-specific security standards"
+        },
+        {
+            "question": "Practical guidelines for PASTA: 2. Define the Technical Scope",
+            "answer": "Identify all critical assets, such as systems and applications, that handle sensitive data owned by the organisation. Develop a thorough understanding of the system architecture, including data flows and dependencies"
+        },
+        {
+            "question": "Practical guidelines for PASTA: 3. Decompose the Application",
+            "answer": "Break down the system into manageable components or modules.\nIdentify and document each component's possible entry points, trust boundaries, attack surfaces, data flows, and user flows."
+        },
+        {
+            "question": "Practical guidelines for PASTA: 4. Analyse the Threats",
+            "answer": "Research and list potential threats from various sources, such as external attackers, insider threats, and accidental exposures.\nLeverage threat intelligence feeds and industry best practices to stay updated on emerging threats."
+        },
+        {
+            "question": "Practical guidelines for PASTA: 5. Vulnerabilities and Weaknesses Analysis",
+            "answer": "Use a combination of tools and techniques, such as static and dynamic code analysis, vulnerability scanning, and penetration testing, to identify potential weaknesses in the system.\nKeep track of known vulnerabilities and ensure they are addressed promptly"
+        },
+        {
+            "question": "Practical guidelines for PASTA: 6. Analyse the Attacks",
+            "answer": "Develop realistic attack scenarios and simulate them to evaluate their potential consequences.\nCreate a blueprint of scenarios via Attack Trees and ensure that all use cases are covered and aligned with the objective of the exercise"
+        },
+        {
+            "question": "Practical guidelines for PASTA: 7. Risk and Impact Analysis",
+            "answer": "Assess the likelihood and impact of each identified threat and prioritise risks based on their overall severity.\nDetermine the most effective and cost-efficient countermeasures for the identified risks, considering the organisation's risk tolerance and security objectives"
+        },
+        {
+            "question": "Unlike DREAD and STRIDE, which focus more on potential risks and vulnerabilities, _ provides a practical and hands-on approach by mapping adversary tactics",
+            "answer": "(MITRE) ATT&CK"
+        },
+        {
+            "question": "_ offers a more numerical and calculated approach to threat analysis than STRIDE or MITRE ATT&CK, making it excellent for clearly prioritising threats",
+            "answer": "DREAD"
+        },
+        {
+            "question": "While other frameworks like MITRE ATT&CK focus on real-world adversary tactics, _ shines in its structure and methodology, allowing for a systematic review of threats specific to software systems",
+            "answer": "STRIDE"
+        },
+        {
+            "question": "Excellent for aligning threat modelling with business objectives. Unlike other frameworks, _ integrates business context, making it a more holistic and adaptable choice for organisations",
+            "answer": "PASTA"
+        },
+        {
+            "question": "If you decide not to bring coffee anywhere near your desk (computer keyboard), that would be _",
+            "answer": "Risk avoidance"
+        },
+        {
+            "question": "Drinking coffee while typing on the computer keyboard with full knowledge of the risk would fall under _",
+            "answer": "Risk acceptance"
+        },
+        {
+            "question": "Upgrading your keyboard to a spill-resistant keyboard would be a _",
+            "answer": "Risk reduction"
+        },
+        {
+            "question": "An intentional or accidental event that can compromise the security of an information system. Examples include hacking, phishing attacks, human error, and natural disasters",
+            "answer": "Threat\n"
+        },
+        {
+            "question": "A software, hardware, or network weakness that cybercriminals can exploit to gain unauthorised access or compromise a system",
+            "answer": "Vulnerability"
+        },
+        {
+            "question": "A valuable resource or component (tangible or intangible) that an organisation relies upon to achieve its objectives",
+            "answer": "Asset\n"
+        },
+        {
+            "question": "The probability of a threat source exploiting an existing vulnerability and resulting in adverse business effects",
+            "answer": "Risk\n"
+        },
+        {
+            "question": "The process of identifying, assessing, and mitigating risk to maintain acceptable levels",
+            "answer": "Risk Management (RM)"
+        },
+        {
+            "question": "These threats are caused by human activities or interventions",
+            "answer": "Human-made threats"
+        },
+        {
+            "question": "These threats result from technological failures, malfunctions, or vulnerabilities",
+            "answer": "Technical threats\n"
+        },
+        {
+            "question": "These are threats caused by natural events or phenomena",
+            "answer": "Natural threats\n"
+        },
+        {
+            "question": "A _ is a set of procedures and processes designed to minimise the chances of an adverse event or outcome for an organisation. It helps organisations identify, assess, and manage potential and actual risks related to their operations, financial activities, and compliance with applicable laws and regulations\n",
+            "answer": "Risk Management Policy"
+        },
+        {
+            "question": "_ is a system of policies, procedures, and practices that seek to protect a company’s computer system from various internal and external threats. It includes identifying threats, assessing the probability of their occurrence, and evaluating the effectiveness of various measures that can be taken to limit the damage they could cause",
+            "answer": "Information Systems Risk Management"
+        },
+        {
+            "question": "A risk assessment methodology developed by the National Institute of Standards and Technology (NIST). It involves identifying and evaluating risks, determining the likelihood and impact of each risk, and developing a risk response plan",
+            "answer": "NIST SP 800-30"
+        },
+        {
+            "question": "A risk assessment methodology that involves a group of stakeholders working together to identify and evaluate risks. It is designed to be a more collaborative and inclusive approach to risk analysis",
+            "answer": "Facilitated Risk Analysis Process (FRAP)"
+        },
+        {
+            "question": "A risk assessment methodology that focuses on identifying and prioritising assets based on their criticality to the organisation’s mission and assessing the threats and vulnerabilities that could impact those assets",
+            "answer": "Operationally Critical Threat, Asset, and Vulnerability Evaluation (OCTAVE)"
+        },
+        {
+            "question": "A risk assessment methodology commonly used in engineering and manufacturing. It involves identifying potential failure modes for a system or process and then analysing the possible effects of those failures and the likelihood of their occurrence",
+            "answer": "Failure Modes and Effect Analysis (FMEA)"
+        },
+        {
+            "question": "Based on NIST SP 800-30, the risk management process entails four steps...",
+            "answer": "...Frame risk, Assess risk, Respond to risk, Monitor risk"
+        },
+        {
+            "question": "The purpose of risk framing is to develop a _",
+            "answer": "Risk Management Strategy\n"
+        },
+        {
+            "question": "To create a reasonable risk frame, organisations must identify...",
+            "answer": "...Risk Assumptions, Risk Constraints, Risk Tolerance, and Priorities and Trade-offs"
+        },
+        {
+            "question": "The goal of the risk assessment is to determine the following...",
+            "answer": "...Threats, Vulnerabilities, Impact, and Likelihood"
+        },
+        {
+            "question": "Where we assign ratings to risks. The ratings can be a qualitative adjective, such as high, medium, and low. Alternatively, it can be something symbolic, such as red, yellow, and green",
+            "answer": "Qualitative Risk Analysis"
+        },
+        {
+            "question": "Where we assign monetary values and use that as a basis for decision-making",
+            "answer": "Quantitative Risk Analysis"
+        },
+        {
+            "question": "Single Loss Expectancy",
+            "answer": "SLE = AssetValue × EF (Exposure Factor, the percentage of loss a realised threat can cause to an asset)"
+        },
+        {
+            "question": "Annualised Loss Expectancy",
+            "answer": "ALE = SLE (Single Loss Expectancy, the loss incurred due to the realisation of a threat represented as a monetary value) × ARO (Annualised Rate of Occurence, the expected number of times this threat is realised yearly, i.e., frequency per year)"
+        },
+        {
+            "question": "Risk management’s third component focuses on how organisations respond to the risks identified through risk assessment. What are the possible responses to risks?",
+            "answer": "Avoid Risk, Transfer Risk (or Share Risk), Mitigate Risk (or Reduce Risk), Accept Risk"
+        },
+        {
+            "question": "The value of the safeguard to the organisation is calculated as follows...",
+            "answer": "...ValueofSafeguard = ALEbeforeSafeguard − ALEafterSafeguard − AnnualCostSafeguard"
+        },
+        {
+            "question": "Monitoring risks activities requires a focus on the following areas...",
+            "answer": "...Effectiveness, Change, Compliance"
+        },
+        {
+            "question": "A _ is a sequence of suppliers that lead to the delivery of a product. In information systems, the product can be hardware, software, or service",
+            "answer": "Supply chain\n"
+        },
+        {
+            "question": "A weakness in an information system, system security procedures, internal controls, or implementation that could be exploited or triggered by a threat source",
+            "answer": "Vulnerability"
+        },
+        {
+            "question": "_ is the process of evaluating, categorising and ultimately remediating threats (vulnerabilities) faced by an organisation",
+            "answer": "Vulnerability management"
+        },
+        {
+            "question": "_ serves a vital role in vulnerability management and is used to determine the potential risk and impact a vulnerability may have on a network or computer system",
+            "answer": "Vulnerability scoring"
+        },
+        {
+            "question": "First introduced in 2005, the _ is a very popular framework for vulnerability scoring and has three major iterations",
+            "answer": "Common Vulnerability Scoring System (or CVSS)"
+        },
+        {
+            "question": "The _ is a modern framework in vulnerability management - developed by Tenable, an industry solutions provider for vulnerability management",
+            "answer": "Vulnerability Priority Rating (VPR) / VPR framework"
+        },
+        {
+            "question": "An _ is something such as an action or behaviour that utilises a vulnerability on a system or application",
+            "answer": "Exploit"
+        },
+        {
+            "question": "A technique or tool that often demonstrates the exploitation of a vulnerability",
+            "answer": "Proof of Concept (PoC)"
+        },
+        {
+            "question": "A website that lists all publically categorised vulnerabilities",
+            "answer": "NVD – National Vulnerability Database"
+        },
+        {
+            "question": "In cybersecurity, vulnerabilities are classified under _",
+            "answer": "Common Vulnerabilities and Exposures (CVE)"
+        },
+        {
+            "question": "Retains exploits for software and applications stored under the name, author and version of the software or application",
+            "answer": "Exploit-DB"
+        },
+        {
+            "question": "We can use Exploit-DB to look for...",
+            "answer": "...Proof of Concepts (PoC)"
+        },
+        {
+            "question": "Who is the author of Exploit-DB?",
+            "answer": "OffSec\n"
+        },
+        {
+            "question": "Vulnerabilities that are due to developer oversight. For example, exposing server information in messages between the application and an attacker",
+            "answer": "Security Misconfigurations"
+        },
+        {
+            "question": "This vulnerability occurs when an attacker is able to access parts of an application that they are not supposed to be able to otherwise",
+            "answer": "Broken Access Control"
+        },
+        {
+            "question": "This is the insecure processing of data that is sent across an application. An attacker may be able to pass malicious code to the application, where it will then be executed",
+            "answer": "Insecure Deserialization"
+        },
+        {
+            "question": "When an attacker is able to input malicious data into an application. This is due to the failure of not ensuring (known as sanitising) input is not harmful",
+            "answer": "Injection"
+        },
+        {
+            "question": "You are testing a web application and find that you are able to input and retrieve data in a database.  What vulnerability is this?",
+            "answer": "Injection\n"
+        },
+        {
+            "question": "You manage to impersonate another user. What vulnerability is this?",
+            "answer": "Broken Access Control\n"
+        },
+        {
+            "question": "_ is a vulnerability research database. The only difference (from Exploit DB and NVD) being that this database also acts as an exploit database. Using this service, you can filter by type of vulnerability (I.e. application and operating system)\n",
+            "answer": "Rapid7\n"
+        },
+        {
+            "question": "_ is a popular web service designed for software developers. The site is used to host and share the source code of applications to allow a collaborative effort. However, security researchers have taken to this platform because of the aforementioned reasons as well",
+            "answer": "GitHub"
+        },
+        {
+            "question": "This tool is an offline copy of Exploit-DB, containing copies of exploits on your system",
+            "answer": "Searchsploit"
+        },
+        {
+            "question": "What website would you use as a security researcher if you wanted to upload a Proof of Concept?",
+            "answer": "GitHub"
+        },
+        {
+            "question": "You are performing a penetration test at a site with no internet connection. What tool could you use to find exploits to use?",
+            "answer": "Searchsploit"
+        },
+        {
+            "question": "_ is an ongoing, proactive, and frequently automated activity that protects computer systems, networks, and enterprise solutions from cyberattacks and data breaches",
+            "answer": "Vulnerability Management"
+        },
+        {
+            "question": "Nessus, Nexpose, and Acunetix are examples of...",
+            "answer": "...commercial vulnerability scanning tools"
+        },
+        {
+            "question": "Greenbone (Community Edition) and OWASP ZAP are examples of...",
+            "answer": "...open-source vulnerability scanning tools"
+        },
+        {
+            "question": "The process encompassing vulnerability scanning and other factors, such as risk acceptance, is called?",
+            "answer": "Vulnerability Management"
+        },
+        {
+            "question": "Vulnerability management is generally viewed as an open, standards-based approach employing the National Institute of Standards and Technology's (NIST) Security _ standard",
+            "answer": "Content Automation Protocol (SCAP)"
+        },
+        {
+            "question": "_ maintains the CVE list of publicly documented vulnerabilities and exposures",
+            "answer": "MITRE"
+        },
+        {
+            "question": "With a unique identifier, a description, and at least one public reference, _ seeks to standardise the identification of security vulnerabilities\n",
+            "answer": "Common Vulnerabilities and Exposures (CVE)"
+        },
+        {
+            "question": "A renowned website for searching CVEs and their impact",
+            "answer": "CVE Details"
+        },
+        {
+            "question": "Can be used to match up configuration assessment tool results with recommended best practices. This is comparable to the CVE list, which gives publicly reported system vulnerability IDs",
+            "answer": "Common Configuration Enumeration (CCE)"
+        },
+        {
+            "question": "Widely used in security and vulnerability management tools to identify various assets and to take accurate automated decisions through correlation with CVE and CCE",
+            "answer": "Common Platform Enumeration (CPE)"
+        },
+        {
+            "question": "A scoring system that rates the severity of vulnerabilities and identifies their characteristics",
+            "answer": "Common Vulnerability Scoring System (CVSS)"
+        },
+        {
+            "question": "Administered by NIST. Is a comprehensive database of CVE-assigned known vulnerabilities",
+            "answer": "National Vulnerability Database (NVD)"
+        },
+        {
+            "question": "There are _ essential phases in the vulnerability management lifecycle that can be mapped out from the NIST Cybersecurity Framework",
+            "answer": "Six"
+        },
+        {
+            "question": "The first step in the Vulnerability Management Lifecycle",
+            "answer": "Discover: The first step is to compile a list of all the environment's resources/assets, including the applications, services, operating systems, and configurations, to identify vulnerabilities"
+        },
+        {
+            "question": "The second step in the Vulnerability Management Lifecycle",
+            "answer": "Prioritise: The second step involves grouping and assigning a risk-based priority to the assets (identified during the discovery phase) based on how crucial they are to the business"
+        },
+        {
+            "question": "The third step in the Vulnerability Management Lifecycle",
+            "answer": "Assess: The third phase involves creating a risk baseline by evaluating your assets to determine how severe each is"
+        },
+        {
+            "question": "The fourth step in the Vulnerability Management Lifecycle",
+            "answer": "Reporting: use the assessment results to determine the risk levels associated with each vulnerability"
+        },
+        {
+            "question": "The fifth step in the Vulnerability Management Lifecycle",
+            "answer": "Remediation: This phase involves fixing the vulnerabilities discovered earlier, beginning with the most severe ones"
+        },
+        {
+            "question": "The sixth step in the Vulnerability Management Lifecycle",
+            "answer": "Verification & Monitoring: In the last step of vulnerability management, regular audits and process monitoring are used to guarantee that all threats have been eradicated"
+        },
+        {
+            "question": "Renowned framework used worldwide for vulnerability management as a guidance for organisations to better manage and reduce their cybersecurity risks",
+            "answer": "Cybersecurity Framework (CSF) by The National Institute of Standards and Technology (NIST)"
+        },
+        {
+            "question": "The fundamental components of the NIST Cybersecurity Framework are broken down into five areas applicable to vulnerability management that help to achieve the cybersecurity objectives of an organisation:",
+            "answer": "Identify, protect, detect, respond, and recover"
+        },
+        {
+            "question": "Describe identify (The NIST Cybersecurity Framework)",
+            "answer": "What assets and processes require security?"
+        },
+        {
+            "question": "Describe protect (The NIST Cybersecurity Framework)",
+            "answer": "Put the right security measures in place to protect the organisation's assets"
+        },
+        {
+            "question": "Describe detect (The NIST Cybersecurity Framework)",
+            "answer": "Implement adequate procedures to detect cybersecurity events"
+        },
+        {
+            "question": "Describe respond (The NIST Cybersecurity Framework)",
+            "answer": "Develop methods for mitigating the effects of cybersecurity incidents"
+        },
+        {
+            "question": "Describe recover (The NIST Cybersecurity Framework)",
+            "answer": "Implement the proper procedures for restoring capabilities and services impacted by cybersecurity incidents"
+        },
+        {
+            "question": "A properly designed network permits not only internet usage and device communication but also...",
+            "answer": "...redundancy, optimization, and security"
+        },
+        {
+            "question": "\"Malware\" consists of two words combined; _ and _",
+            "answer": "Malicious and software"
+        },
+        {
+            "question": "Produced work detailing self-replicating computer programs (concept/design of the world's first computer virus)",
+            "answer": "John von Neumann (around 1949)"
+        },
+        {
+            "question": "A computer design model that forms the basis of most modern computers",
+            "answer": "The von Neumann architecture"
+        },
+        {
+            "question": "The first-ever virus to be created",
+            "answer": "The Creeper Program, also known as the \"Creeper worm\" or \"virus\". Written by Bob Thomas in 1971"
+        },
+        {
+            "question": "Creeper was created in the programming language _, which ran on the operating system _",
+            "answer": "PDP-10 Assembly, which ran on the operating system TENEX"
+        },
+        {
+            "question": "What harm did the Creeper virus cause to infected computers?",
+            "answer": "None. It merely displayed a message stating, \"I'm the creeper, catch me if you can!\""
+        },
+        {
+            "question": "What were the first two protocols used by ARPANET?",
+            "answer": "The initial protocols included remote login and file transfer"
+        },
+        {
+            "question": "Breaking data into packets to then route or send said data to the receiver. The receiver (computer that is receiving the data) will then reassemble the packets back into whatever data/file was being sent",
+            "answer": "Packet Switching"
+        },
+        {
+            "question": "Who re-designed the Creeper Virus?",
+            "answer": "Ray Tomlinson"
+        },
+        {
+            "question": "How is data transferred through a network?",
+            "answer": "Packet Switching"
+        },
+        {
+            "question": "What does ARPANET stand for?",
+            "answer": "Advanced Research Projects Agency Network"
+        },
+        {
+            "question": "Which team created the network control program? (Context: ARPANET)",
+            "answer": "Network Working Group"
+        },
+        {
+            "question": "Who was the creator of Reaper?",
+            "answer": "Ray Tomlinson"
+        },
+        {
+            "question": "Was designed to move across the network and delete Creeper",
+            "answer": "Reaper\n"
+        },
+        {
+            "question": "The first known example of antivirus software",
+            "answer": "Reaper. Reaper was created with a benign purpose: to seek out and delete the Creeper virus"
+        },
+        {
+            "question": "What type of malware may Reaper be known as?",
+            "answer": "Nematode"
+        },
+        {
+            "question": "_ virus was written in 1974. The name, which derived from Elmer Fudd's way of saying \"Rabbit\" in the looney tunes cartoons, was one of the first self-replicating malware",
+            "answer": "The Wabbit (Rabbit)"
+        },
+        {
+            "question": "What is a modern day fork bomb also known as?",
+            "answer": "Denial Of Service Attack"
+        },
+        {
+            "question": "What did the name \"Wabbit\" derive from?",
+            "answer": "Looney Tunes Cartoons"
+        },
+        {
+            "question": "What is the main purpose of using subnets in a network?",
+            "answer": "The purpose of subnets is to divide a large network into smaller segments to improve manageability and security"
+        },
+        {
+            "question": "What security issue can arise with subnets?",
+            "answer": "An infected device can spread malware in the network if it can connect across different subnets"
+        },
+        {
+            "question": "What is a VLAN?",
+            "answer": "VLAN stands for Virtual Local Area Network and is used to segment a network at layer two to separate and secure devices"
+        },
+        {
+            "question": "How does VLAN differ from subnetting?",
+            "answer": "VLAN segments networks at the data link layer, while subnetting uses the network layer, giving VLAN finer control over traffic isolation"
+        },
+        {
+            "question": "How is VLAN implemented in a network?",
+            "answer": "VLAN is implemented by adding a tag (label) to data frames on a switch to indicate VLAN membership"
+        },
+        {
+            "question": "Why is VLAN important for security?",
+            "answer": "VLAN prevents unauthorized access and the spread of malware by strictly controlling traffic between network segments"
+        },
+        {
+            "question": "A tag that will designate the VLAN that the traffic originated from",
+            "answer": "The 802.1q or dot1q tag"
+        },
+        {
+            "question": "A common practice known as BYOD",
+            "answer": "Bring Your Own Device"
+        },
+        {
+            "question": "An open-source switch that can be used, for example, to add a VLAN tag to a sub-interface",
+            "answer": "Use Open vSwitch (OVS) with the command ovs-vsctl set port <interface> tag=<VLAN_ID> to assign a VLAN tag (where <VLAN_ID> ranges from 0 to 99) to a specific interface"
+        },
+        {
+            "question": "What should be done if the origin of the VLAN traffic is unknown?",
+            "answer": "For traffic that is not tagged and passes through a switch, the Native VLAN is utilized. To handle such traffic, you can configure a port to treat untagged traffic as belonging to a specific VLAN by setting the port to native-untagged mode. For example, using Open vSwitch (OVS), the command ovs-vsctl set port eth0 tag=10 vlan_mode=native-untagged assigns untagged traffic to VLAN 10 on the eth0 interface"
+        },
+        {
+            "question": "How do VLANs connect to the internet or access resources in other VLANs?",
+            "answer": "VLANs use routers to route traffic between them, allowing communication outside their segmented network"
+        },
+        {
+            "question": "What was the traditional method for connecting VLANs to routers?",
+            "answer": "Network engineers would physically connect a switch and router separately for each VLAN"
+        },
+        {
+            "question": "What is the modern solution for routing between VLANs?",
+            "answer": "The modern solution is the ROAS (Router on a Stick) design, where VLANs communicate with a router through a designated switch port"
+        },
+        {
+            "question": "What is a trunk in the context of VLANs?",
+            "answer": "A trunk is the connection between the switch and router that allows VLANs to be routed through a single connection/interface"
+        },
+        {
+            "question": "How do you initiate a trunk for VLAN routing in a lab environment?",
+            "answer": "By configuring a trunk on a pre-existing connection, often set up as bridges by default in demonstration labs"
+        },
+        {
+            "question": "How can routers route tagged traffic between VLANs?",
+            "answer": "By configuring the router's switch port to accept specific tags for each interface, utilizing the 802.1q standard"
+        },
+        {
+            "question": "What is the purpose of virtual sub-interfaces in VLAN routing?",
+            "answer": "Virtual sub-interfaces keep each tagged frame separate, acting similar to physical interfaces and commonly defined by the VLAN ID"
+        },
+        {
+            "question": "How do you add a new virtual sub-interface for VLAN routing on a VyOS router?",
+            "answer": "Use the syntax <name>.<vlan/sub-interface id> to define the sub-interface, such as setting up a VLAN 10 interface with a specific IP address on a VyOS router"
+        },
+        {
+            "question": "Are VLANs completely isolated when routing traffic between them?",
+            "answer": "Physically, yes, but they are not necessarily isolated in terms of security because routes between them allow communication, lacking a security boundary"
+        },
+        {
+            "question": "What is the next step after routing traffic between VLANs?",
+            "answer": "Designing secure VLANs and introducing the concept of zoning to ensure proper isolation and security boundaries between different VLANs"
+        },
+        {
+            "question": "Key considerations in network design without compromising components?",
+            "answer": "Focus on security, optimization, and redundancy."
+        },
+        {
+            "question": "How do we properly implement VLANs as a security boundary?",
+            "answer": "Security zones. Security zones define what or who is in a VLAN and how traffic can travel in and out"
+        },
+        {
+            "question": "What are the common security zones in network architecture?",
+            "answer": "External, DMZ (Demilitarized Zone), Trusted, Restricted, Management, Audit"
+        },
+        {
+            "question": "What computers did the Trojan ANIMAL/PERVADE spread across?",
+            "answer": "UNIVACs (Universal Automatic Computer)"
+        },
+        {
+            "question": "In what year was ANIMAL originally coded, and when was the subroutine PERVADE added?",
+            "answer": "ANIMAL was originally coded in 1974 as a non-malicious game, and the subroutine PERVADE was added in 1975"
+        },
+        {
+            "question": "When was the first Trojan created and what was it called?",
+            "answer": "The first Trojan, ANIMAL, was created in 1975"
+        },
+        {
+            "question": "Who created the first Trojan, ANIMAL, and what was its original purpose?",
+            "answer": "John Walker created ANIMAL as a game to guess the type of animal the user was thinking of by asking a series of questions"
+        },
+        {
+            "question": "What did the subroutine called \"PERVADE\" do while the user played ANIMAL?",
+            "answer": "While the user played ANIMAL, the subroutine PERVADE would create a copy of itself and ANIMAL in every directory that the user had access to"
+        },
+        {
+            "question": "Was ANIMAL designed to be malicious?",
+            "answer": "No, ANIMAL was not designed to be malicious. It was carefully written to ensure that no directory structure or files were damaged"
+        },
+        {
+            "question": "What was John Walker's opinion on adding the subroutine PERVADE to ANIMAL?",
+            "answer": "John Walker thought that adding the subroutine PERVADE to ANIMAL was a good idea"
+        },
+        {
+            "question": "If there are routes between VLANs intended to be separated, how is the appropriate access restricted or granted?",
+            "answer": "Policies aid in defining how network traffic is controlled. A network traffic policy may determine how and if a router will route traffic before other routing protocols are employed"
+        },
+        {
+            "question": "Has standardized a handful of access control and traffic policies, such as QoS (Quality of Service) (802.11e)",
+            "answer": "IEEE (Institute of Electrical and Electronics Engineers)"
+        },
+        {
+            "question": "Contains ACE(s) (Access Control Entry) or rules that define a list’s profile based on pre-defined criteria (source address, destination address, etc.)",
+            "answer": "ACL(s) (Access Control List(s))"
+        },
+        {
+            "question": "Cisco uses _ for traffic filtering, priority or custom queuing, and dynamic access control",
+            "answer": "ACL(s) (Access Control List(s))"
+        },
+        {
+            "question": "Formally, _ provides network security, validation, and segmentation by filtering network traffic based on pre-defined criteria",
+            "answer": "Traffic Filtering"
+        },
+        {
+            "question": "What is Elk Cloner?",
+            "answer": "Elk Cloner is recognized as one of the first microcomputer viruses to spread \"in the wild,\" beyond the confines of a single computer system or laboratory"
+        },
+        {
+            "question": "Who created Elk Cloner and when?",
+            "answer": "Elk Cloner was created by Richard Skrenta in 1982 as a practical joke aimed at his friends"
+        },
+        {
+            "question": "How did Elk Cloner operate?",
+            "answer": "Elk Cloner was a malware that targeted the Apple II operating system. It propagated via floppy disks, attaching itself to the boot sector of these disks. Once a disk infected with Elk Cloner was inserted into a computer, the virus would then become part of the system's boot process"
+        },
+        {
+            "question": "What technique did Elk Cloner utilize to propagate?",
+            "answer": "Elk Cloner utilized a technique now known as a \"Boot Sector Virus.\" This method involves infecting the boot sector of a storage device, which is the part responsible for booting (starting) the computer"
+        },
+        {
+            "question": "Are boot sector viruses still relevant today?",
+            "answer": "While less common in modern technology due to advanced security measures and changes in device architecture, boot sector viruses remain an important aspect of cybersecurity. They highlight the need for vigilance and protective measures, as they infect the boot sector of a computer and attempt to propagate to every disk inserted into the infected system. However, with the right tools and precautions, they can be effectively removed"
+        },
+        {
+            "question": "Which US Military regiment was affected by the Elk Cloner virus?",
+            "answer": "The Elk Cloner virus, one of the first to spread in the wild, was notably caught by the US Navy. This incident highlights the virus's capability to affect not only personal computing devices but also more secured, institutional systems such as those used by the military"
+        },
+        {
+            "question": "How long did it take Richard Skrenta to write the Elk Cloner, and in what programming language was it developed?",
+            "answer": "Richard Skrenta wrote the Elk Cloner virus over a period of two weeks, using Assembly language"
+        },
+        {
+            "question": "How old was Richard Skrenta when he created the Elk Cloner virus?",
+            "answer": "Richard Skrenta was 15 years old when he wrote the Elk Cloner virus"
+        },
+        {
+            "question": "Which operating system was affected by the Elk Cloner virus?",
+            "answer": "The Elk Cloner virus specifically targeted the operating system of the Apple II series of computers"
+        },
+        {
+            "question": "What was the Morris Internet Worm, and when was it released?",
+            "answer": "The Morris Internet Worm, released in 1988 by Robert Tappan Morris, was a worm designed to expose the security vulnerabilities within academic networks"
+        },
+        {
+            "question": "Was the Morris Internet Worm intended to be malicious?",
+            "answer": "No, the Morris Internet Worm was not intended to be malicious. Its creator, Robert Tappan Morris, aimed to demonstrate the security vulnerabilities within academic networks. However, due to a critical oversight, the worm did not check which computers it had already infected. This led to repeated infections of the same systems, causing significant slowdowns and effectively resulting in a denial of service attack through a process known as a \"fork bomb.\""
+        },
+        {
+            "question": "Who was the first person to be convicted of a felony under the 1986 Computer Fraud and Abuse Act in the US, and why?",
+            "answer": "Robert Tappan Morris was the first individual to be convicted of a felony under the 1986 Computer Fraud and Abuse Act in the United States. His conviction stemmed from the unintended consequences of the Morris Internet Worm, which he had created to expose security vulnerabilities in academic networks"
+        },
+        {
+            "question": "How did the Morris Internet Worm spread across computers?",
+            "answer": "The Morris Internet Worm spread by exploiting known vulnerabilities in Unix Sendmail, rsh (remote shell)/rexec, and through the use of weak passwords. These entry points allowed it to infect systems by executing commands remotely"
+        },
+        {
+            "question": "What impact did the Morris Internet Worm have on global cybersecurity awareness?",
+            "answer": "Although the Morris Internet Worm caused significant issues, it played a crucial role in raising global awareness about the dangers of weak passwords and the importance of network security"
+        },
+        {
+            "question": "How quickly did the Morris Internet Worm infect computers, and what was its removal process?",
+            "answer": "The worm infected 2,000 computers within the first 15 hours of its release. Removal often took 2 days for a single computer, during which the infected systems were largely inoperative"
+        },
+        {
+            "question": "What was the total number of computers infected by the Morris Internet Worm, and how significant was this number at the time?",
+            "answer": "Reportedly, 6,000 computers were infected by the Morris Internet Worm, which constituted around 10% of the internet-connected computers at the time, illustrating the worm's widespread impact"
+        },
+        {
+            "question": "How did the Berkeley r-commands contribute to the spread of the Morris Internet Worm?",
+            "answer": "The Berkeley r-commands significantly facilitated the worm's spread by allowing it to access computers and execute commands remotely. Similar in function to modern-day \"ssh,\" these commands were part of a suite originally designed for UNIX and based on an early implementation of TCP/IP, highlighting the worm's exploitation of network vulnerabilities"
+        },
+        {
+            "question": "What commands were a very big way that allowed Morris to access the computers?",
+            "answer": "Berkeley r-commands"
+        },
+        {
+            "question": "Who was one the first person prosecuted for the computer misuse act?",
+            "answer": "Robert Tappan Morris\n"
+        },
+        {
+            "question": "What type of attack is a \"Fork Bomb\"?",
+            "answer": "Denial Of Service"
+        },
+        {
+            "question": "What does \"rsh\" stand for and what is its purpose?",
+            "answer": "\"rsh\" stands for \"remote shell.\" It is a command used in UNIX and UNIX-like operating systems to execute commands on a remote computer. \"rsh\" allows a user to run commands on a remote machine without having to log in to that machine, facilitating administrative tasks and system management over a network"
+        },
+        {
+            "question": "What was the name of the first type of malware to use a form of encryption?",
+            "answer": "Cascade"
+        },
+        {
+            "question": "What file extension did Cascade infect?",
+            "answer": ".COM files"
+        },
+        {
+            "question": "How many variants of the Cascade virus were possibly found?",
+            "answer": "40 variants"
+        },
+        {
+            "question": "What operating system would the Cascade virus run on?",
+            "answer": "DOS (Disk Operating System)"
+        },
+        {
+            "question": "Which Operating System/Framework would Cascade try to avoid?",
+            "answer": "IBM systems"
+        },
+        {
+            "question": "How many bytes would be added onto your file if it got infected by the Cascade virus?",
+            "answer": "1704 bytes"
+        },
+        {
+            "question": "What did the Cascade virus do?",
+            "answer": "The Cascade virus was known for causing the letters on an infected computer's screen to \"fall\" to the bottom of the screen, creating a cascade effect. This visual disturbance was accompanied by the virus's main function: to infect executable files, thereby spreading itself and potentially hindering system operations. Beyond its visual gimmick, Cascade's encryption mechanism made it a pioneering threat in malware history, marking an early example of malware developers using encryption to evade detection"
+        }
+    ]
+}
