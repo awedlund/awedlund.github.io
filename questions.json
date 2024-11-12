@@ -1,0 +1,137 @@
+{
+    "deck_name": "HTB Assembly",
+    "cards": [
+        {
+            "question": "Why can't physical components like processors interpret high-level languages?",
+            "answer": "They can only process binary data (1's and 0's)."
+        },
+        {
+            "question": "What is Assembly language?",
+            "answer": "A low-level language that writes direct instructions for processors to understand."
+        },
+        {
+            "question": "Why is Assembly language called symbolic machine code?",
+            "answer": "It provides human-readable machine instructions that are then assembled into machine code."
+        },
+        {
+            "question": "What is an example of Assembly code versus machine code for adding 1 to the rax register?",
+            "answer": "Assembly: 'add rax, 1', Machine Code: '4883C001'."
+        },
+        {
+            "question": "What is shellcode?",
+            "answer": "A hex representation of machine code bytes."
+        },
+        {
+            "question": "How does a high-level language differ from a low-level language?",
+            "answer": "High-level languages are easier to understand and work across processors, while low-level languages are processor-specific and closer to machine code."
+        },
+        {
+            "question": "What role do compilers play for high-level languages?",
+            "answer": "They translate high-level code into assembly and then machine code for the processor."
+        },
+        {
+            "question": "What are interpreted languages?",
+            "answer": "Languages like Python, PHP, and JavaScript that are not compiled but interpreted at runtime."
+        },
+        {
+            "question": "What is unique about Java's compilation process?",
+            "answer": "Java is compiled into bytecode that is later compiled to machine code by the local runtime environment."
+        },
+        {
+            "question": "Why is learning Assembly language useful for penetration testers?",
+            "answer": "Understanding Assembly helps in binary exploitation, crucial for finding vulnerabilities in binaries."
+        },
+        {
+            "question": "Which Assembly languages are commonly used in modern processors?",
+            "answer": "Intel x86 for most machines and ARM for smartphones and some laptops like the M1 MacBook Pro."
+        },
+        {
+            "question": "What is the Von Neumann Architecture?",
+            "answer": "An architecture developed in 1945 that enables the creation of general-purpose computers."
+        },
+        {
+            "question": "Who inspired Alan Turing's ideas for general-purpose computers?",
+            "answer": "Charles Babbage's concept of a programmable computer."
+        },
+        {
+            "question": "What are the main components of a modern computer in the Von Neumann Architecture?",
+            "answer": "CPU, Memory Unit, Input/Output Devices, Mass Storage Unit, Keyboard, Display."
+        },
+        {
+            "question": "What are the three main components of the CPU?",
+            "answer": "Control Unit (CU), Arithmetic/Logic Unit (ALU), Registers."
+        },
+        {
+            "question": "Why is understanding computer architecture crucial in assembly language programming?",
+            "answer": "To know where data is moved to and from and understand the cost of instructions."
+        },
+        {
+            "question": "What are the two types of memory in a computer?",
+            "answer": "Cache and Random Access Memory (RAM)."
+        },
+        {
+            "question": "Where is cache memory located, and why is it faster than RAM?",
+            "answer": "Cache memory is located within the CPU, making it extremely fast as it runs at the same clock speed as the CPU."
+        },
+        {
+            "question": "What are the three levels of cache memory?",
+            "answer": "Level 1 Cache (fastest, located in CPU cores), Level 2 Cache (shared between CPU cores), Level 3 Cache (larger, slower than L1/L2)."
+        },
+        {
+            "question": "Why is cache memory important for CPU performance?",
+            "answer": "It allows the CPU to access instructions faster than retrieving from slower RAM, speeding up processing."
+        },
+        {
+            "question": "How is RAM different from cache memory?",
+            "answer": "RAM is much larger but slower, located farther from the CPU cores."
+        },
+        {
+            "question": "What are the four main segments of RAM when a program runs?",
+            "answer": "Stack, Heap, Data, and Text segments."
+        },
+        {
+            "question": "Describe the stack segment in RAM.",
+            "answer": "It follows a Last-in First-out (LIFO) design and is fixed in size, accessed in a specific order."
+        },
+        {
+            "question": "What is the function of the heap segment in RAM?",
+            "answer": "It stores data in a hierarchical design, allowing data retrieval in any order, but it is slower than the stack."
+        },
+        {
+            "question": "What is the data segment in RAM used for?",
+            "answer": "It holds variables and buffer memory for later allocation."
+        },
+        {
+            "question": "What does the text segment in RAM contain?",
+            "answer": "The main assembly instructions to be executed by the CPU."
+        },
+        {
+            "question": "What is virtual memory?",
+            "answer": "A memory space allocated to each application, with separate stack, heap, data, and text segments."
+        },
+        {
+            "question": "What are Input/Output (IO) devices?",
+            "answer": "Devices like the keyboard, screen, and storage units, accessed by the CPU through Bus Interfaces."
+        },
+        {
+            "question": "What is the purpose of bus interfaces?",
+            "answer": "To transfer data and addresses between components using electrical charges for binary data."
+        },
+        {
+            "question": "Why is primary memory faster than secondary memory?",
+            "answer": "Primary memory (like RAM) is closer to the CPU, whereas secondary memory (like storage) is slower due to distance and design."
+        },
+        {
+            "question": "What are the advantages of Solid-State Drives (SSDs) over Hard Disk Drives (HDDs)?",
+            "answer": "SSDs are faster because they use non-volatile circuitry like RAM, allowing faster data storage and retrieval."
+        },
+        {
+            "question": "How does the speed of a component correlate with its distance from the CPU?",
+            "answer": "Components closer to the CPU are faster; those further away, like storage, are slower."
+        },
+        {
+            "question": "Which component in a computer is the fastest?",
+            "answer": "Registers are the fastest component, followed by cache levels."
+        }
+    ]
+}
