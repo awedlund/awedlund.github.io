@@ -204,6 +204,78 @@
         {
             "question": "What CPU architecture do most modern computers and servers use?",
             "answer": "Intel x86 64-bit (x86_64 or AMD64)."
+        },
+        {
+            "question": "What does an Instruction Set Architecture (ISA) specify?",
+            "answer": "The syntax and semantics of the assembly language on each architecture."
+        },
+        {
+            "question": "What are the four main components of an ISA?",
+            "answer": "Instructions, Registers, Memory Addresses, Data Types."
+        },
+        {
+            "question": "What is the purpose of registers in an ISA?",
+            "answer": "Registers temporarily store operands, addresses, or instructions."
+        },
+        {
+            "question": "What are examples of registers?",
+            "answer": "rax, rsp, rip."
+        },
+        {
+            "question": "What type of computer commonly uses CISC architecture?",
+            "answer": "Intel and AMD processors in most computers and servers."
+        },
+        {
+            "question": "What type of devices commonly use RISC architecture?",
+            "answer": "ARM and Apple processors, in most smartphones and some modern laptops."
+        },
+        {
+            "question": "What does CISC stand for?",
+            "answer": "Complex Instruction Set Computer."
+        },
+        {
+            "question": "What does RISC stand for?",
+            "answer": "Reduced Instruction Set Computer."
+        },
+        {
+            "question": "How does CISC handle instructions?",
+            "answer": "CISC combines minor instructions into complex ones, reducing the overall number of instructions."
+        },
+        {
+            "question": "How does RISC handle instructions?",
+            "answer": "RISC splits instructions into simpler ones, focusing on software optimization."
+        },
+        {
+            "question": "What is a key difference in instruction length between CISC and RISC?",
+            "answer": "CISC has variable-length instructions, while RISC has fixed-length instructions."
+        },
+        {
+            "question": "What is an advantage of RISC's fixed instruction length?",
+            "answer": "Each stage in the instruction cycle can take exactly one machine clock cycle."
+        },
+        {
+            "question": "Why do RISC processors consume less power than CISC processors?",
+            "answer": "They only execute simple instructions, each in a single clock cycle."
+        },
+        {
+            "question": "How many instructions does a typical CISC processor support?",
+            "answer": "Around 1500 instructions."
+        },
+        {
+            "question": "How many instructions does a typical RISC processor support?",
+            "answer": "Around 200 instructions."
+        },
+        {
+            "question": "What is a disadvantage of CISC's complex instruction cycle?",
+            "answer": "It consumes more power and generates more heat."
+        },
+        {
+            "question": "Why is RISC becoming more popular in recent years?",
+            "answer": "Because it is faster, uses less power, and optimized software can manage longer code lengths."
+        },
+        {
+            "question": "What is the main priority for learning in assembly language for pentesting?",
+            "answer": "Learning CISC architecture, as most computers and servers use Intel/AMD processors."
         }
     ]
 }
