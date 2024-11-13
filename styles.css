@@ -7,6 +7,22 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    transition: background 0.2s ease;
+}
+
+body.hurt {
+    background: linear-gradient(45deg, #2a1a1a, #3e1616);
+}
+
+.game-title {
+    font-family: 'Orbitron', sans-serif;
+    color: #05d9e8;
+    text-shadow: 0 0 10px rgba(5, 217, 232, 0.5),
+                 0 0 20px rgba(5, 217, 232, 0.3);
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
 }
 
 #card-container {

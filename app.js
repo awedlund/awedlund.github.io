@@ -29,10 +29,6 @@ function displayCard() {
         const questionEl = document.getElementById('question');
         const answerEl = document.getElementById('answer');
         
-        // Add glitch effect
-        questionEl.classList.add('glitch-text');
-        setTimeout(() => questionEl.classList.remove('glitch-text'), 300);
-        
         questionEl.innerText = cards[currentCardIndex].question;
         answerEl.innerText = cards[currentCardIndex].answer;
         answerEl.classList.remove('visible');
@@ -53,6 +49,13 @@ function updateButtonStates() {
 function updateStatus() {
     let remaining = cards.length - currentCardIndex - 1;
     document.getElementById('status').innerText = `Remaining questions: ${remaining}`;
+}
+
+function triggerHurtEffect() {
+    document.body.classList.add('hurt');
+    setTimeout(() => {
+        document.body.classList.remove('hurt');
+    }, 200);
 }
 
 // Event listeners for buttons
@@ -80,6 +83,7 @@ document.getElementById('greet').addEventListener('click', () => {
     document.getElementById('greetCount').innerText = `Screwed count: ${greetCount}`;
     document.getElementById('card').style.animation = 'glitch 0.3s ease';
     setTimeout(() => document.getElementById('card').style.animation = '', 300);
+    triggerHurtEffect();
 });
 
 // Easter egg: Double click on card container triggers glitch effect
