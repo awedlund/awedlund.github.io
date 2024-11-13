@@ -132,6 +132,78 @@
         {
             "question": "Which component in a computer is the fastest?",
             "answer": "Registers are the fastest component, followed by cache levels."
+        },
+        {
+            "question": "What are the two main components of a CPU?",
+            "answer": "The Control Unit (CU) and the Arithmetic/Logic Unit (ALU)."
+        },
+        {
+            "question": "What is the role of the Control Unit (CU) in the CPU?",
+            "answer": "It moves and controls data within the CPU."
+        },
+        {
+            "question": "What does the Arithmetic/Logic Unit (ALU) do?",
+            "answer": "It performs arithmetic and logical calculations requested by a program."
+        },
+        {
+            "question": "What is an Instruction Set Architecture (ISA)?",
+            "answer": "It is the architecture that defines how a CPU processes instructions."
+        },
+        {
+            "question": "How do RISC and CISC architectures differ?",
+            "answer": "RISC uses simpler instructions with more cycles but shorter execution time per cycle, while CISC uses complex instructions with fewer cycles but longer execution time per cycle."
+        },
+        {
+            "question": "What is clock speed in a CPU?",
+            "answer": "The rate at which a CPU can process instructions, measured in Hertz (cycles per second)."
+        },
+        {
+            "question": "What is an instruction cycle?",
+            "answer": "It is the process the CPU follows to execute a single machine instruction."
+        },
+        {
+            "question": "What are the four stages of an instruction cycle?",
+            "answer": "Fetch, Decode, Execute, and Store."
+        },
+        {
+            "question": "What happens in the 'Fetch' stage of an instruction cycle?",
+            "answer": "The CPU fetches the next instruction’s address from the Instruction Address Register (IAR)."
+        },
+        {
+            "question": "Describe the 'Decode' stage of an instruction cycle.",
+            "answer": "The instruction is decoded from binary to determine what needs to be executed."
+        },
+        {
+            "question": "What occurs during the 'Execute' stage of an instruction cycle?",
+            "answer": "The CPU fetches operands from memory or registers and performs the operation in the ALU or CU."
+        },
+        {
+            "question": "What is the purpose of the 'Store' stage in an instruction cycle?",
+            "answer": "It stores the result in the destination operand."
+        },
+        {
+            "question": "How do modern processors improve efficiency over past processors?",
+            "answer": "They process multiple instructions in parallel with multi-threading and multi-core design."
+        },
+        {
+            "question": "Why does machine code differ between processors like Intel and ARM?",
+            "answer": "Different processors have unique Instruction Set Architectures (ISAs)."
+        },
+        {
+            "question": "What is the Intel assembly syntax for the instruction 'add rax, 1'?",
+            "answer": "add rax, 1"
+        },
+        {
+            "question": "How would the ARM architecture express the Intel instruction 'add rax, 1'?",
+            "answer": "add r1, r1, 1"
+        },
+        {
+            "question": "What is a common command to check CPU architecture in Linux?",
+            "answer": "lscpu or uname -m"
+        },
+        {
+            "question": "What CPU architecture do most modern computers and servers use?",
+            "answer": "Intel x86 64-bit (x86_64 or AMD64)."
         }
     ]
 }
