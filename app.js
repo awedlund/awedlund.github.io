@@ -25,38 +25,87 @@ function loadCards() {
 
 // Display the current card
 function displayCard() {
-    if (currentCardIndex < cards.length) {
-        document.getElementById('question').innerText = cards[currentCardIndex].question;
-        document.getElementById('answer').innerText = cards[currentCardIndex].answer;
-        document.getElementById('answer').style.display = 'none';
+    if (currentCardIndex < cards.length && currentCardIndex >= 0) {
+        const questionEl = document.getElementById('question');
+        const answerEl = document.getElementById('answer');
+        
+        // Add glitch effect
+        questionEl.classList.add('glitch-text');
+        setTimeout(() => questionEl.classList.remove('glitch-text'), 300);
+        
+        questionEl.innerText = cards[currentCardIndex].question;
+        answerEl.innerText = cards[currentCardIndex].answer;
+        answerEl.classList.remove('visible');
     } else {
         document.getElementById('card').innerHTML = "<p>No more cards!</p>";
     }
     updateStatus();
+    updateButtonStates();
+}
+
+// Update button states based on current index
+function updateButtonStates() {
+    document.getElementById('prev').disabled = currentCardIndex <= 0;
+    document.getElementById('next').disabled = currentCardIndex >= cards.length - 1;
 }
 
 // Update the status of remaining questions
 function updateStatus() {
-    let remaining = cards.length - currentCardIndex;
+    let remaining = cards.length - currentCardIndex - 1;
     document.getElementById('status').innerText = `Remaining questions: ${remaining}`;
 }
 
 // Event listeners for buttons
+document.getElementById('prev').addEventListener('click', () => {
+    if (currentCardIndex > 0) {
+        currentCardIndex--;
+        displayCard();
+    }
+});
+
 document.getElementById('next').addEventListener('click', () => {
-    if (currentCardIndex < cards.length) {
+    if (currentCardIndex < cards.length - 1) {
         currentCardIndex++;
         displayCard();
     }
 });
 
 document.getElementById('toggle').addEventListener('click', () => {
-    let answerDiv = document.getElementById('answer');
-    answerDiv.style.display = answerDiv.style.display === 'none' ? 'block' : 'none';
+    const answerEl = document.getElementById('answer');
+    answerEl.classList.toggle('visible');
 });
 
 document.getElementById('greet').addEventListener('click', () => {
     greetCount++;
     document.getElementById('greetCount').innerText = `Screwed count: ${greetCount}`;
+    document.getElementById('card').style.animation = 'glitch 0.3s ease';
+    setTimeout(() => document.getElementById('card').style.animation = '', 300);
+});
+
+// Easter egg: Double click on card container triggers glitch effect
+document.getElementById('card').addEventListener('dblclick', () => {
+    document.getElementById('greet').click();
+});
+
+// Keyboard navigation
+document.addEventListener('keydown', (e) => {
+    switch(e.key) {
+        case 'ArrowLeft':
+            if (currentCardIndex > 0) {
+                currentCardIndex--;
+                displayCard();
+            }
+            break;
+        case 'ArrowRight':
+            if (currentCardIndex < cards.length - 1) {
+                currentCardIndex++;
+                displayCard();
+            }
+            break;
+        case ' ':
+            document.getElementById('toggle').click();
+            break;
+    }
 });
 
 // Load cards when the window is loaded

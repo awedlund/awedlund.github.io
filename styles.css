@@ -1,24 +1,134 @@
+body {
+    margin: 0;
+    min-height: 100vh;
+    background: linear-gradient(45deg, #1a1a2e, #16213e);
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 #card-container {
-    width: 300px;
+    width: 90%;
+    max-width: 600px;
     margin: auto;
     text-align: center;
+    perspective: 1000px;
 }
 
 #card {
-    border: 2px solid black;
-    padding: 20px;
-    margin-bottom: 10px;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    border: 2px solid #ff2a6d;
+    border-radius: 15px;
+    padding: 30px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 20px rgba(255, 42, 109, 0.3),
+                inset 0 0 20px rgba(255, 42, 109, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+#card:hover {
+    box-shadow: 0 0 30px rgba(255, 42, 109, 0.5),
+                inset 0 0 30px rgba(255, 42, 109, 0.3);
 }
 
 #question {
-    margin-bottom: 10px;
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+    min-height: 60px;
+    color: #05d9e8;
+    text-shadow: 0 0 10px rgba(5, 217, 232, 0.5);
 }
 
 #answer {
-    font-weight: bold;
+    font-weight: 600;
+    color: #ff2a6d;
+    text-shadow: 0 0 10px rgba(255, 42, 109, 0.5);
+    min-height: 40px;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+#answer.visible {
+    opacity: 1;
+}
+
+.controls {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 button {
+    background: transparent;
+    color: #fff;
+    border: 2px solid #05d9e8;
+    padding: 10px 20px;
+    border-radius: 25px;
+    font-family: 'Orbitron', sans-serif;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 0.9rem;
+}
+
+button:hover {
+    background: #05d9e8;
+    color: #1a1a2e;
+    box-shadow: 0 0 15px rgba(5, 217, 232, 0.5);
+    transform: translateY(-2px);
+}
+
+button:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+    transform: none;
+}
+
+#status {
+    font-family: 'Orbitron', sans-serif;
+    color: #ff2a6d;
+    margin-top: 20px;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+#greetCount {
+    color: #05d9e8;
+    font-size: 0.8rem;
     margin-top: 10px;
-    padding: 5px 10px;
+    font-family: 'Orbitron', sans-serif;
+}
+
+@keyframes glitch {
+    0% { transform: translate(0) }
+    20% { transform: translate(-2px, 2px) }
+    40% { transform: translate(-2px, -2px) }
+    60% { transform: translate(2px, 2px) }
+    80% { transform: translate(2px, -2px) }
+    100% { transform: translate(0) }
+}
+
+.glitch-text {
+    animation: glitch 0.3s ease;
+}
+
+#greet {
+    margin: 0 auto;
+    display: block;
+    background: #ff2a6d;
+    border-color: #ff2a6d;
+    color: #fff;
+}
+
+#greet:hover {
+    background: #ff1493;
+    border-color: #ff1493;
+    color: #fff;
 }

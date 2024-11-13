@@ -1,21 +1,23 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Flashcard Game</title>
+    <title>Synthwave Flashcards</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Orbitron:wght@700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <div id="card-container">
         <div id="card">
             <div id="question"></div>
-            <div id="answer" style="display: none;"></div>
+            <div id="answer"></div>
         </div>
-        <div id="status">Remaining questions: </div>
-        <button id="next">Next Card</button>
-        <button id="toggle">Show/Hide Answer</button>
+        <div class="controls">
+            <button id="prev">Previous</button>
+            <button id="toggle">Show/Hide</button>
+            <button id="next">Next</button>
+        </div>
         <button id="greet">I'm screwed</button>
+        <div id="status">Remaining questions: 0</div>
         <div id="greetCount">Screwed count: 0</div>
     </div>
     <script src="app.js"></script>
