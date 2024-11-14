@@ -276,6 +276,114 @@
         {
             "question": "What is the main priority for learning in assembly language for pentesting?",
             "answer": "Learning CISC architecture, as most computers and servers use Intel/AMD processors."
+        },
+        {
+            "question": "What are the four assembly elements essential before learning Assembly?",
+            "answer": "Registers, Memory Addresses, Address Endianness, and Data Types"
+        },
+        {
+            "question": "What are registers?",
+            "answer": "Registers are small, fast storage areas built within the CPU core that hold a few bytes of data at a time."
+        },
+        {
+            "question": "What are the two main types of registers in x86 assembly?",
+            "answer": "Data Registers and Pointer Registers"
+        },
+        {
+            "question": "Name the primary data registers in x86 architecture.",
+            "answer": "rax, rbx, rcx, and rdx"
+        },
+        {
+            "question": "What are rdi and rsi registers typically used for?",
+            "answer": "Instruction destination and source operands"
+        },
+        {
+            "question": "What is the main purpose of pointer registers?",
+            "answer": "To store specific address pointers like stack or instruction locations"
+        },
+        {
+            "question": "What does the rbp pointer register represent?",
+            "answer": "Base Stack Pointer, which points to the beginning of the Stack"
+        },
+        {
+            "question": "What does the rsp pointer register represent?",
+            "answer": "Current Stack Pointer, which points to the top of the Stack"
+        },
+        {
+            "question": "What does the rip pointer register represent?",
+            "answer": "Instruction Pointer, which holds the address of the next instruction"
+        },
+        {
+            "question": "What are sub-registers?",
+            "answer": "Smaller sections of a 64-bit register (8-bit, 16-bit, 32-bit) that can be accessed independently"
+        },
+        {
+            "question": "How many bits are in a 16-bit sub-register?",
+            "answer": "16 bits"
+        },
+        {
+            "question": "What prefix is used for 32-bit sub-registers?",
+            "answer": "e (example: eax)"
+        },
+        {
+            "question": "What prefix is used for 64-bit registers?",
+            "answer": "r (example: rax)"
+        },
+        {
+            "question": "For the register 'bx', what is its 8-bit sub-register?",
+            "answer": "bl"
+        },
+        {
+            "question": "Name the 8-bit, 16-bit, 32-bit, and 64-bit sub-registers for rax.",
+            "answer": "8-bit: al, 16-bit: ax, 32-bit: eax, 64-bit: rax"
+        },
+        {
+            "question": "What are the two types of endianness?",
+            "answer": "Little-Endian and Big-Endian"
+        },
+        {
+            "question": "How are bytes stored in Little-Endian format?",
+            "answer": "Bytes are stored right-to-left, with the least significant byte first."
+        },
+        {
+            "question": "How are bytes stored in Big-Endian format?",
+            "answer": "Bytes are stored left-to-right, with the most significant byte first."
+        },
+        {
+            "question": "Why is Little-Endian used in x86 architecture?",
+            "answer": "It allows sub-registers to be retrieved without accessing the entire register and supports right-to-left arithmetic."
+        },
+        {
+            "question": "What is a byte in terms of bits?",
+            "answer": "8 bits"
+        },
+        {
+            "question": "How many bits are in a word?",
+            "answer": "16 bits (2 bytes)"
+        },
+        {
+            "question": "How many bits are in a double word (dword)?",
+            "answer": "32 bits (4 bytes)"
+        },
+        {
+            "question": "How many bits are in a quad word (qword)?",
+            "answer": "64 bits (8 bytes)"
+        },
+        {
+            "question": "What data type is compatible with the 'al' register?",
+            "answer": "byte"
+        },
+        {
+            "question": "What data type is compatible with the 'ax' register?",
+            "answer": "word"
+        },
+        {
+            "question": "What data type is compatible with the 'eax' register?",
+            "answer": "dword"
+        },
+        {
+            "question": "What data type is compatible with the 'rax' register?",
+            "answer": "qword"
         }
     ]
 }
