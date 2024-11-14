@@ -384,6 +384,118 @@
         {
             "question": "What data type is compatible with the 'rax' register?",
             "answer": "qword"
+        },
+        {
+            "question": "What is the purpose of the 'global _start' directive in an Assembly file?",
+            "answer": "It directs the code to start executing at the '_start' label."
+        },
+        {
+            "question": "What is the role of the '.data' section in an Assembly file?",
+            "answer": "It holds variables, loading them into memory for use during program execution."
+        },
+        {
+            "question": "What does the '.text' section in an Assembly file contain?",
+            "answer": "It contains the executable code instructions for the program."
+        },
+        {
+            "question": "In Assembly language, what are the three main parts of each line of code?",
+            "answer": "Labels, Instructions, Operands."
+        },
+        {
+            "question": "What type of data does the 'db' instruction define?",
+            "answer": "It defines a list of bytes."
+        },
+        {
+            "question": "How can comments be added to Assembly code?",
+            "answer": "By using a semi-colon ';' at the start of the comment line."
+        },
+        {
+            "question": "What does the 'equ' directive do in Assembly language?",
+            "answer": "It defines a constant value that cannot be changed later."
+        },
+        {
+            "question": "How is the length of a string calculated using the 'equ' directive?",
+            "answer": "By using '$-message', where '$' represents the current position in the data section."
+        },
+        {
+            "question": "What is the difference between the data and text memory segments in Assembly?",
+            "answer": "The data segment is read/write for variables, while the text segment is read-only and holds executable code."
+        },
+        {
+            "question": "Why is it important to separate data and text segments in memory?",
+            "answer": "To protect against buffer overflows and binary exploitation by enforcing memory protections."
+        },
+        {
+            "question": "What tool is used to assemble an Assembly file in this module?",
+            "answer": "The nasm tool."
+        },
+        {
+            "question": "What is the purpose of the '-f elf64' flag in nasm?",
+            "answer": "It specifies that the assembly code should be assembled as 64-bit."
+        },
+        {
+            "question": "What does the 'global _start' directive do in assembly?",
+            "answer": "It defines the entry point for the program."
+        },
+        {
+            "question": "What does the 'equ' directive accomplish in assembly?",
+            "answer": "It dynamically calculates the length of a variable, such as a string."
+        },
+        {
+            "question": "What file extension is typically used for assembly files?",
+            "answer": ".s or .asm"
+        },
+        {
+            "question": "What is the purpose of the 'ld' command in the assembly process?",
+            "answer": "To link the assembled file, resolving references and linking OS libraries."
+        },
+        {
+            "question": "What is an ELF file in the context of Linux assembly?",
+            "answer": "Executable and Linkable Format (ELF), a binary format used in Linux."
+        },
+        {
+            "question": "What command links a 64-bit assembled object file to create an executable?",
+            "answer": "ld -o filename objectfile.o"
+        },
+        {
+            "question": "How can you disassemble an ELF file to view its assembly code?",
+            "answer": "Use objdump with the -M intel -d flags."
+        },
+        {
+            "question": "Which objdump flag displays assembly instructions without machine code or addresses?",
+            "answer": "--no-show-raw-insn --no-addresses"
+        },
+        {
+            "question": "How can you use objdump to view only the .data section?",
+            "answer": "Use objdump -sj .data filename."
+        },
+        {
+            "question": "What does the 'mov rax, 1' instruction do in assembly?",
+            "answer": "It moves the integer 1 into the rax register, often used for syscall numbers."
+        },
+        {
+            "question": "What does the 'syscall' instruction accomplish in the provided assembly example?",
+            "answer": "It executes a system call using the parameters set in the registers."
+        },
+        {
+            "question": "What does the assembler script (assembler.sh) automate?",
+            "answer": "It assembles, links, and optionally runs or debugs an assembly file."
+        },
+        {
+            "question": "What does the '-M intel' flag in objdump specify?",
+            "answer": "It formats the output in Intel assembly syntax."
+        },
+        {
+            "question": "What command would you use to disassemble and view the assembly of a linked file?",
+            "answer": "objdump -M intel -d filename"
+        },
+        {
+            "question": "What section contains initialized data in an assembly file?",
+            "answer": "The .data section."
+        },
+        {
+            "question": "What section in assembly code contains the executable instructions?",
+            "answer": "The .text section."
         }
     ]
 }
