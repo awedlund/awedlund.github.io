@@ -496,6 +496,154 @@
         {
             "question": "What section in assembly code contains the executable instructions?",
             "answer": "The .text section."
+        },
+        {
+            "question": "What is debugging?",
+            "answer": "Debugging is finding and removing bugs or issues in code."
+        },
+        {
+            "question": "Why is debugging more complex in assembly language?",
+            "answer": "In assembly, breakpoints are set in memory locations where machine code is loaded, unlike in high-level languages where breakpoints can be set on specific lines of code."
+        },
+        {
+            "question": "What is the GNU Debugger (GDB) primarily used for?",
+            "answer": "GDB is used for debugging Linux binaries."
+        },
+        {
+            "question": "Name two debuggers similar to GDB for Linux and two for Windows.",
+            "answer": "Linux: Radare, Hopper; Windows: Immunity Debugger, WinGDB."
+        },
+        {
+            "question": "What makes GDB reliable for Linux binaries?",
+            "answer": "GDB is built and maintained directly by GNU, providing excellent integration with Linux."
+        },
+        {
+            "question": "How can GDB be installed on Linux systems?",
+            "answer": "GDB can be installed using 'sudo apt-get update' followed by 'sudo apt-get install gdb'."
+        },
+        {
+            "question": "What is GEF, and why is it useful?",
+            "answer": "GEF is a GDB plugin designed for reverse engineering and binary exploitation, useful for advanced debugging."
+        },
+        {
+            "question": "How do you install GEF for GDB?",
+            "answer": "Use 'wget -O ~/.gdbinit-gef.py -q https://gef.blah.cat/py' and 'echo source ~/.gdbinit-gef.py >> ~/.gdbinit'."
+        },
+        {
+            "question": "How do you start GDB with a program called 'helloWorld' and automatically load GEF?",
+            "answer": "Run 'gdb -q ./helloWorld'."
+        },
+        {
+            "question": "What command provides general information about the program in GDB?",
+            "answer": "The 'info' command."
+        },
+        {
+            "question": "How can you access help for a specific command in GDB?",
+            "answer": "Use 'help' followed by the command name, e.g., 'help info'."
+        },
+        {
+            "question": "Which GDB command lists all functions within a binary?",
+            "answer": "'info functions' lists all defined functions in the binary."
+        },
+        {
+            "question": "What does the 'info variables' command do in GDB?",
+            "answer": "It lists all available variables in the program."
+        },
+        {
+            "question": "How do you disassemble a function named '_start' in GDB?",
+            "answer": "Use 'disas _start' or 'disassemble _start'."
+        },
+        {
+            "question": "Why is knowing memory addresses important in debugging?",
+            "answer": "Memory addresses allow examination of variables/operands and setting breakpoints for specific instructions."
+        },
+        {
+            "question": "What is $rip-relative addressing?",
+            "answer": "$rip-relative addressing uses memory addresses relative to the instruction pointer $rip in the program’s virtual memory, common in Position-Independent Executables (PIE)."
+        },
+        {
+            "question": "How can PIE affect debugging?",
+            "answer": "PIE uses relative addressing, making some addresses look different from their raw memory form."
+        },
+        {
+            "question": "What are the four main steps of debugging in GDB?",
+            "answer": "Break, Examine, Step, and Modify."
+        },
+        {
+            "question": "What is the purpose of setting a breakpoint in debugging?",
+            "answer": "To stop execution at a specific location or condition to examine the program's state and values."
+        },
+        {
+            "question": "How do you set a breakpoint in GDB for a specific function?",
+            "answer": "Use the command 'b function_name' or 'break function_name'."
+        },
+        {
+            "question": "What command starts a program in GDB after setting a breakpoint?",
+            "answer": "The 'run' or 'r' command."
+        },
+        {
+            "question": "What does the command 'gef➤ b *0x40100a' do in GDB?",
+            "answer": "Sets a breakpoint at the instruction stored at address 0x40100a."
+        },
+        {
+            "question": "How can you continue execution to the next breakpoint after stopping?",
+            "answer": "Use the 'continue' or 'c' command."
+        },
+        {
+            "question": "What GDB command lists all active breakpoints?",
+            "answer": "The 'info breakpoint' command."
+        },
+        {
+            "question": "Which command in GDB lets you examine memory in a specific format?",
+            "answer": "The 'x/FMT ADDRESS' command, where FMT is the format and ADDRESS is the memory address or register."
+        },
+        {
+            "question": "What does 'x/4ig $rip' do in GDB?",
+            "answer": "Examines the next four instructions starting from the current instruction at $rip in assembly format."
+        },
+        {
+            "question": "How do you examine a string stored at a specific memory address in GDB?",
+            "answer": "Use the command 'x/s address', with 's' indicating string format."
+        },
+        {
+            "question": "What command displays the hex format of memory contents in GDB?",
+            "answer": "The 'x/wx address' command, where 'wx' indicates word-sized hex output."
+        },
+        {
+            "question": "How can you display all current register values in GDB?",
+            "answer": "Use the 'registers' command in GEF."
+        },
+        {
+            "question": "What is the difference between 'step' and 'stepi' in GDB?",
+            "answer": "'step' goes to the next source line, while 'stepi' (or 'si') steps one assembly instruction at a time."
+        },
+        {
+            "question": "What does the 'si 3' command do in GDB?",
+            "answer": "Steps through the next three assembly instructions."
+        },
+        {
+            "question": "How does the 'next' command differ from 'step' in GDB?",
+            "answer": "'next' skips over function calls, while 'step' enters them."
+        },
+        {
+            "question": "What is the purpose of modifying register values in GDB during debugging?",
+            "answer": "To test how changes affect the execution without recompiling the program."
+        },
+        {
+            "question": "What command in GDB helps modify values at specific addresses more easily?",
+            "answer": "The 'patch' command in GEF."
+        },
+        {
+            "question": "How do you modify the string stored at a memory address in GDB?",
+            "answer": "Use 'patch string address \"new_value\"' to replace the string at the specified address."
+        },
+        {
+            "question": "What command changes register values in GDB?",
+            "answer": "Use the 'set' command (e.g., 'set $register=value')."
+        },
+        {
+            "question": "How does GDB help in penetration testing?",
+            "answer": "It allows for understanding how programs handle input, helping to identify failures for potential exploit development."
         }
     ]
 }
